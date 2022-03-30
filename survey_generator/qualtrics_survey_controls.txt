@@ -24,7 +24,7 @@ survey_name = Prolific Trial (First Survey)
 
 outputs_root = ../survey_generator_output/prolific_trial/
 assignments_name = prolific_trial_first_assignments.json
-q_desc_name = prolific_trial_first.csv
+q_desc_name = prolific_trial_first_q_desc.csv
 qsf_name = prolific_trial_first.qsf
 
 eos_redirect_url = https://app.prolific.co/submissions/complete?cc=4234DFB7

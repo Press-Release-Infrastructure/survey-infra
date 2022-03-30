@@ -47,7 +47,11 @@ attention_te_weight = attention_thresh_te / (training_thresh_mc + 2 * training_t
 survey_name = config["settings"]["survey_name"]
 
 outputs_root = config["settings"]["outputs_root"]
-os.mkdir(outputs_root)
+try:
+	os.mkdir(outputs_root)
+except:
+	print("Output directory already exists.")
+
 assignments_name = "{}/{}".format(outputs_root, config["settings"]["assignments_name"])
 qsf_name = "{}/{}".format(outputs_root, config["settings"]["qsf_name"])
 q_desc_name = "{}/{}".format(outputs_root, config["settings"]["q_desc_name"])
