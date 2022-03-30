@@ -1,0 +1,28 @@
+[settings]
+all_titles_filename = ../input_headlines/headlines.csv
+
+num_headlines = 20
+num_students = 4
+overlap = 0.5
+training_length = 0
+attention_check_length = 0
+
+block_size = 10
+
+training_thresh_mc = 0.7
+training_thresh_te = 0.5
+attention_thresh_mc = 0.7
+attention_thresh_te = 0.5
+
+follow_up_flag = 0
+
+training_flow_headlines_filename = ../survey_data/selected_training.csv
+training_headlines_filename = ../survey_data/selected_training_test.csv
+att_headlines_filename = ../survey_data/selected_att.csv
+
+survey_name = Prolific Trial (First Survey)
+assignments_name = ../respondent_assignments/prolific_trial_first_assignments.json
+q_desc_name = ../q_desc/prolific_trial_first.csv
+qsf_name = ../qsf_output/prolific/prolific_trial_first.qsf
+
+eos_redirect_url = https://app.prolific.co/submissions/complete?cc=4234DFB7
