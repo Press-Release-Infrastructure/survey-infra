@@ -5,6 +5,7 @@ import sys
 import numpy as np
 import copy
 import configparser
+import os
 from survey_flow_directions import pg1, pg1_alt, pg2, pg3, pg4, pg5, pg6, pg7, pg8, pg9, pg10, pg11, pg12, pg13, pg14
 
 seed = 0
@@ -44,17 +45,16 @@ attention_mc_weight = attention_thresh_mc / (attention_thresh_mc + 2 * attention
 attention_te_weight = attention_thresh_te / (training_thresh_mc + 2 * training_thresh_te)
 
 survey_name = config["settings"]["survey_name"]
-assignments_name = config["settings"]["assignments_name"]
-qsf_name = config["settings"]["qsf_name"]
-q_desc_name = config["settings"]["q_desc_name"]
+
+outputs_root = config["settings"]["outputs_root"]
+os.mkdir(outputs_root)
+assignments_name = "{}/{}".format(outputs_root, config["settings"]["assignments_name"])
+qsf_name = "{}/{}".format(outputs_root, config["settings"]["qsf_name"])
+q_desc_name = "{}/{}".format(outputs_root, config["settings"]["q_desc_name"])
 
 eos_redirect_url = config["settings"]["eos_redirect_url"]
 
-training_headlines_df = pd.read_csv(config["settings"]["training_headlines_filename"], encoding = 'utf8').sample(frac = 1, random_state = seed)
 training_flow_headlines_df = pd.read_csv(config["settings"]["training_flow_headlines_filename"], encoding = 'utf8')
-training_headlines_df = training_headlines_df.where(pd.notnull(training_headlines_df), "")
-training_headlines = list(training_headlines_df["Title"][:training_length])
-training_answers = training_headlines_df[["Acq_Status", "Company 1", "Company 2"]].to_records(index = False)[:training_length]
 
 titles = np.array(all_titles)
 
@@ -590,9 +590,6 @@ for student, title_idxs in student_assignments.items():
 for a_chunk in attention_check_headlines:
 	for a in a_chunk:
 		attention_check_title_to_student[a] = list(range(num_students))
-
-for t in training_headlines:
-	training_title_to_student[t] = list(range(num_students))
 
 def create_highlight_question(qid, mode = "acquirer"):
 	q_text = "Click and drag / press to highlight the {} company name in the headline.".format(mode.upper())
@@ -1134,7 +1131,6 @@ for i in range(num_blocks):
 	regular_headline_idxes = {}
 	regular_headline_to_student = {}
 	curr_headlines = set(curr_at_check)
-	# print('iter', student_assignments, '\n')
 	for j in range(num_students):
 		if len(student_assignments[j]) >= block_size - len(curr_at_check):
 			regular_headline_idxes[j] = np.random.choice(student_assignments[j], size = block_size - len(curr_at_check), replace = False)
@@ -1230,7 +1226,6 @@ while curr_idx < len(mturk_survey_q_dump):
 
 displayed = set(headlines_displayed.keys())
 att_flat = set(np.array(attention_check_headlines).flatten())
-assert(len(displayed.intersection(set(training_headlines))) == len(training_headlines))
 assert(len(displayed.intersection(att_flat)) == num_blocks * attention_check_length)
 assert(len(displayed.intersection(set(titles_to_classify))) == num_headlines)
 
