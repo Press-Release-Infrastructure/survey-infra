@@ -467,20 +467,22 @@ d_format_elements = [
 
 curr = 0
 image_curr = -5000
+est_time = round(titles_per_student / rate * 60)
 image_ids = ["IM_9B5dS6U26s0YYRM", "IM_0OMSPpaZ6IPdKtg", "IM_bwqhodFXsvLLnj8", "IM_0AL9PxBO1HSum5U", "IM_0jpOZB2TB4XXIhM", "IM_bQuvbckdHqNZxie", "IM_51OYNiheRmKoVYa"]
 for d in directions:
 	qid1 = "QID{}".format(curr)
 	qid2 = "QID{}".format(image_curr)
-	# student_qid = qid
 	
-	if curr == 3:
-		d = d % (titles_per_student, round(titles_per_student / rate * 60))
+	if curr == 0:
+		d = d % est_time
+	elif curr == 3:
+		d = d % (titles_per_student, est_time)
 	elif 4 <= curr <= 10:
 		d_elems = list(training_flow_headlines_df.iloc[curr - 4][d_format_elements[curr - 4]])
 		d = d % tuple(d_elems)
 
 	if 4 <= curr <= 10:
-		d = "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>" + d + "</div>"
+		d = "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>" + d + "</div>"
 	survey_elements.append({
 		"SurveyID": "{}".format(survey_id),
 		"Element": "SQ",

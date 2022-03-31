@@ -1518,14 +1518,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID0",
-      "SecondaryAttribute": "\nWe are working on a non-profit project for research purposes to identify <b>company acquisitions</b> and <b>mergers</b> from a large number of business headlines.\n<br><br>\nAn <b>acquisition</b> is when one company buys another company. \n<br><br>\nA <b>merger</b> is when two companies join together as equals.\n<br><br>\n<b>If you are identified as a high-accuracy worker in this survey, you will have the opportunity to complete additional, paid follow-up surveys.</b>\n",
+      "SecondaryAttribute": "\nWe are working on a non-profit project for research purposes to classify business headlines. This is an introductory survey that will take about 5 minutes. <b>We will contact \"Super workers\" who have high rates of accuracy with additional opportunities to work.</b>\n<br><br>\nThe purpose of our project is to identify <b>company acquisitions</b> and <b>mergers</b> from a large number of business headlines. \n<br><br>\nAn <b>acquisition</b> is when one company buys another company. \n<br><br>\nA <b>merger</b> is when two companies join together as equals.\n",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "\nWe are working on a non-profit project for research purposes to identify <b>company acquisitions</b> and <b>mergers</b> from a large number of business headlines.\n<br><br>\nAn <b>acquisition</b> is when one company buys another company. \n<br><br>\nA <b>merger</b> is when two companies join together as equals.\n<br><br>\n<b>If you are identified as a high-accuracy worker in this survey, you will have the opportunity to complete additional, paid follow-up surveys.</b>\n",
+        "QuestionText": "\nWe are working on a non-profit project for research purposes to classify business headlines. This is an introductory survey that will take about 5 minutes. <b>We will contact \"Super workers\" who have high rates of accuracy with additional opportunities to work.</b>\n<br><br>\nThe purpose of our project is to identify <b>company acquisitions</b> and <b>mergers</b> from a large number of business headlines. \n<br><br>\nAn <b>acquisition</b> is when one company buys another company. \n<br><br>\nA <b>merger</b> is when two companies join together as equals.\n",
         "QuestionID": "QID0",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "\nWe are working on a non-profit project for research purposes to identify <b>company acquisitions</b> and <b>mergers</b> from a large number of business headlines.\n<br><br>\nAn <b>acquisition</b> is when one company buys another company. \n<br><br>\nA <b>merger</b> is when two companies join together as equals.\n<br><br>\n<b>If you are identified as a high-accuracy worker in this survey, you will have the opportunity to complete additional, paid follow-up surveys.</b>\n",
+        "QuestionDescription": "\nWe are working on a non-profit project for research purposes to classify business headlines. This is an introductory survey that will take about 5 minutes. <b>We will contact \"Super workers\" who have high rates of accuracy with additional opportunities to work.</b>\n<br><br>\nThe purpose of our project is to identify <b>company acquisitions</b> and <b>mergers</b> from a large number of business headlines. \n<br><br>\nAn <b>acquisition</b> is when one company buys another company. \n<br><br>\nA <b>merger</b> is when two companies join together as equals.\n",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -1581,14 +1581,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID3",
-      "SecondaryAttribute": "\nYour task is to review a maximum of 10 headlines, which will take about 5 minutes.\n<br><br>\nFirst, we will provide training. We will show you examples of headlines and how they should be classified.\n<br><br>\nSecond, we will give you a test. We will show you headlines we have already tested and record your answers. <b>If you classify most of the test headlines correctly, you will move on to the next task.</b> If there are too many errors, we will pay you for your time but you will not be able to proceed with more work.\n<br><br>\nThird, you will start the work of reading headlines and recording acquisitions. <b>NOTE: we will periodically include test headlines at random intervals to check that you are paying attention.</b> If you do not answer these questions correctly, we will end your session. We will pay you for your time but you will not be able to proceed with the work.\n",
+      "SecondaryAttribute": "\nYour task is to review a maximum of 10 headlines, which will take about 5 minutes.\n<br><br>\nFirst, we will provide training. We will show you examples of headlines and how they should be classified.\n<br><br>\nThen, you will start the work of reading headlines and recording acquisitions. \n<br><br>\n<b>We will periodically include test headlines at random intervals to check that you are paying attention.</b> If you answer test headlines correctly, you will have the opportunity to do more work on this project. We will contact you with additional survey opportunities. \n",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "\nYour task is to review a maximum of 10 headlines, which will take about 5 minutes.\n<br><br>\nFirst, we will provide training. We will show you examples of headlines and how they should be classified.\n<br><br>\nSecond, we will give you a test. We will show you headlines we have already tested and record your answers. <b>If you classify most of the test headlines correctly, you will move on to the next task.</b> If there are too many errors, we will pay you for your time but you will not be able to proceed with more work.\n<br><br>\nThird, you will start the work of reading headlines and recording acquisitions. <b>NOTE: we will periodically include test headlines at random intervals to check that you are paying attention.</b> If you do not answer these questions correctly, we will end your session. We will pay you for your time but you will not be able to proceed with the work.\n",
+        "QuestionText": "\nYour task is to review a maximum of 10 headlines, which will take about 5 minutes.\n<br><br>\nFirst, we will provide training. We will show you examples of headlines and how they should be classified.\n<br><br>\nThen, you will start the work of reading headlines and recording acquisitions. \n<br><br>\n<b>We will periodically include test headlines at random intervals to check that you are paying attention.</b> If you answer test headlines correctly, you will have the opportunity to do more work on this project. We will contact you with additional survey opportunities. \n",
         "QuestionID": "QID3",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "\nYour task is to review a maximum of 10 headlines, which will take about 5 minutes.\n<br><br>\nFirst, we will provide training. We will show you examples of headlines and how they should be classified.\n<br><br>\nSecond, we will give you a test. We will show you headlines we have already tested and record your answers. <b>If you classify most of the test headlines correctly, you will move on to the next task.</b> If there are too many errors, we will pay you for your time but you will not be able to proceed with more work.\n<br><br>\nThird, you will start the work of reading headlines and recording acquisitions. <b>NOTE: we will periodically include test headlines at random intervals to check that you are paying attention.</b> If you do not answer these questions correctly, we will end your session. We will pay you for your time but you will not be able to proceed with the work.\n",
+        "QuestionDescription": "\nYour task is to review a maximum of 10 headlines, which will take about 5 minutes.\n<br><br>\nFirst, we will provide training. We will show you examples of headlines and how they should be classified.\n<br><br>\nThen, you will start the work of reading headlines and recording acquisitions. \n<br><br>\n<b>We will periodically include test headlines at random intervals to check that you are paying attention.</b> If you answer test headlines correctly, you will have the opportunity to do more work on this project. We will contact you with additional survey opportunities. \n",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -1602,14 +1602,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID4",
-      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Pure Storage acquires data service platform Portworx for $370M</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. We click \"Acquisition\" in the drop-down box.\n<br><br>\nIn this headline, Pure Storage acquires Portworx. \n<br><br>\nWe COPY and PASTE the names of the company that was the acquirer (the buyer) and the aquiree (the company purchased).\n</div>",
+      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Pure Storage acquires data service platform Portworx for $370M</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. We click \"Acquisition\" in the drop-down box.\n<br><br>\nIn this headline, Pure Storage acquires Portworx. \n<br><br>\nWe COPY and PASTE the names of the company that was the acquirer (the buyer) and the aquiree (the company purchased).\n</div>",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Pure Storage acquires data service platform Portworx for $370M</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. We click \"Acquisition\" in the drop-down box.\n<br><br>\nIn this headline, Pure Storage acquires Portworx. \n<br><br>\nWe COPY and PASTE the names of the company that was the acquirer (the buyer) and the aquiree (the company purchased).\n</div>",
+        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Pure Storage acquires data service platform Portworx for $370M</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. We click \"Acquisition\" in the drop-down box.\n<br><br>\nIn this headline, Pure Storage acquires Portworx. \n<br><br>\nWe COPY and PASTE the names of the company that was the acquirer (the buyer) and the aquiree (the company purchased).\n</div>",
         "QuestionID": "QID4",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Pure Storage acquires data service platform Portworx for $370M</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. We click \"Acquisition\" in the drop-down box.\n<br><br>\nIn this headline, Pure Storage acquires Portworx. \n<br><br>\nWe COPY and PASTE the names of the company that was the acquirer (the buyer) and the aquiree (the company purchased).\n</div>",
+        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Pure Storage acquires data service platform Portworx for $370M</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. We click \"Acquisition\" in the drop-down box.\n<br><br>\nIn this headline, Pure Storage acquires Portworx. \n<br><br>\nWe COPY and PASTE the names of the company that was the acquirer (the buyer) and the aquiree (the company purchased).\n</div>",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -1655,14 +1655,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID5",
-      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>GitHub acquired by Microsoft: big win or risky gamble?</b>\n<br><br>\nThis headline is about an acquisition. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline uses the passive voice: GitHub was <b>acquired by</b> Microsoft. For this headline, Microsoft is the acquirer and GitHub the acquiree.\n<br><br>\nWe COPY and PASTE the correct names into the text boxes.\n</div>",
+      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>GitHub acquired by Microsoft: big win or risky gamble?</b>\n<br><br>\nThis headline is about an acquisition. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline uses the passive voice: GitHub was <b>acquired by</b> Microsoft. For this headline, Microsoft is the acquirer and GitHub the acquiree.\n<br><br>\nWe COPY and PASTE the correct names into the text boxes.\n</div>",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>GitHub acquired by Microsoft: big win or risky gamble?</b>\n<br><br>\nThis headline is about an acquisition. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline uses the passive voice: GitHub was <b>acquired by</b> Microsoft. For this headline, Microsoft is the acquirer and GitHub the acquiree.\n<br><br>\nWe COPY and PASTE the correct names into the text boxes.\n</div>",
+        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>GitHub acquired by Microsoft: big win or risky gamble?</b>\n<br><br>\nThis headline is about an acquisition. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline uses the passive voice: GitHub was <b>acquired by</b> Microsoft. For this headline, Microsoft is the acquirer and GitHub the acquiree.\n<br><br>\nWe COPY and PASTE the correct names into the text boxes.\n</div>",
         "QuestionID": "QID5",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>GitHub acquired by Microsoft: big win or risky gamble?</b>\n<br><br>\nThis headline is about an acquisition. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline uses the passive voice: GitHub was <b>acquired by</b> Microsoft. For this headline, Microsoft is the acquirer and GitHub the acquiree.\n<br><br>\nWe COPY and PASTE the correct names into the text boxes.\n</div>",
+        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>GitHub acquired by Microsoft: big win or risky gamble?</b>\n<br><br>\nThis headline is about an acquisition. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline uses the passive voice: GitHub was <b>acquired by</b> Microsoft. For this headline, Microsoft is the acquirer and GitHub the acquiree.\n<br><br>\nWe COPY and PASTE the correct names into the text boxes.\n</div>",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -1708,14 +1708,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID6",
-      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>NortonLifeLock's Recommended Merger with Avast Cleared by U.S. Department of Justice</b>\n<br><br>\nThis headline is about a <b>merger</b>. We click \"Merger\" in the drop-down box.\n<br><br>\nThe headline says which companies are in the mergers. For mergers, the order does not matter. \n<br><br>\nWe COPY and PASTE the names into the text boxes, in either order.\n</div>",
+      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>NortonLifeLock's Recommended Merger with Avast Cleared by U.S. Department of Justice</b>\n<br><br>\nThis headline is about a <b>merger</b>. We click \"Merger\" in the drop-down box.\n<br><br>\nThe headline says which companies are in the mergers. For mergers, the order does not matter. \n<br><br>\nWe COPY and PASTE the names into the text boxes, in either order.\n</div>",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>NortonLifeLock's Recommended Merger with Avast Cleared by U.S. Department of Justice</b>\n<br><br>\nThis headline is about a <b>merger</b>. We click \"Merger\" in the drop-down box.\n<br><br>\nThe headline says which companies are in the mergers. For mergers, the order does not matter. \n<br><br>\nWe COPY and PASTE the names into the text boxes, in either order.\n</div>",
+        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>NortonLifeLock's Recommended Merger with Avast Cleared by U.S. Department of Justice</b>\n<br><br>\nThis headline is about a <b>merger</b>. We click \"Merger\" in the drop-down box.\n<br><br>\nThe headline says which companies are in the mergers. For mergers, the order does not matter. \n<br><br>\nWe COPY and PASTE the names into the text boxes, in either order.\n</div>",
         "QuestionID": "QID6",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>NortonLifeLock's Recommended Merger with Avast Cleared by U.S. Department of Justice</b>\n<br><br>\nThis headline is about a <b>merger</b>. We click \"Merger\" in the drop-down box.\n<br><br>\nThe headline says which companies are in the mergers. For mergers, the order does not matter. \n<br><br>\nWe COPY and PASTE the names into the text boxes, in either order.\n</div>",
+        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>NortonLifeLock's Recommended Merger with Avast Cleared by U.S. Department of Justice</b>\n<br><br>\nThis headline is about a <b>merger</b>. We click \"Merger\" in the drop-down box.\n<br><br>\nThe headline says which companies are in the mergers. For mergers, the order does not matter. \n<br><br>\nWe COPY and PASTE the names into the text boxes, in either order.\n</div>",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -1761,14 +1761,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID7",
-      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Sundar Pichai Appointed CEO of Google</b>\n<br><br>\nThis headline is not about an acquisition or merger. We click \"Neither / Not sure / Unclear\" in the drop-down box\n</div>",
+      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Sundar Pichai Appointed CEO of Google</b>\n<br><br>\nThis headline is not about an acquisition or merger. We click \"Neither / Not sure / Unclear\" in the drop-down box\n</div>",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Sundar Pichai Appointed CEO of Google</b>\n<br><br>\nThis headline is not about an acquisition or merger. We click \"Neither / Not sure / Unclear\" in the drop-down box\n</div>",
+        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Sundar Pichai Appointed CEO of Google</b>\n<br><br>\nThis headline is not about an acquisition or merger. We click \"Neither / Not sure / Unclear\" in the drop-down box\n</div>",
         "QuestionID": "QID7",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Sundar Pichai Appointed CEO of Google</b>\n<br><br>\nThis headline is not about an acquisition or merger. We click \"Neither / Not sure / Unclear\" in the drop-down box\n</div>",
+        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Sundar Pichai Appointed CEO of Google</b>\n<br><br>\nThis headline is not about an acquisition or merger. We click \"Neither / Not sure / Unclear\" in the drop-down box\n</div>",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -1814,14 +1814,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID8",
-      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>General Electric buys small Michigan-based tech startup</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"bought,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that General Electric was the acquirer. But it does not say who the acquired company was. \n<br><br>\nWe COPY and PASTE General Electric in the acquirer box, and leave the \"acquiree\" box blank, and move to the next, clicking the forward arrow.\n</div>",
+      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>General Electric buys small Michigan-based tech startup</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"bought,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that General Electric was the acquirer. But it does not say who the acquired company was. \n<br><br>\nWe COPY and PASTE General Electric in the acquirer box, and leave the \"acquiree\" box blank, and move to the next, clicking the forward arrow.\n</div>",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>General Electric buys small Michigan-based tech startup</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"bought,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that General Electric was the acquirer. But it does not say who the acquired company was. \n<br><br>\nWe COPY and PASTE General Electric in the acquirer box, and leave the \"acquiree\" box blank, and move to the next, clicking the forward arrow.\n</div>",
+        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>General Electric buys small Michigan-based tech startup</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"bought,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that General Electric was the acquirer. But it does not say who the acquired company was. \n<br><br>\nWe COPY and PASTE General Electric in the acquirer box, and leave the \"acquiree\" box blank, and move to the next, clicking the forward arrow.\n</div>",
         "QuestionID": "QID8",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>General Electric buys small Michigan-based tech startup</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"bought,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that General Electric was the acquirer. But it does not say who the acquired company was. \n<br><br>\nWe COPY and PASTE General Electric in the acquirer box, and leave the \"acquiree\" box blank, and move to the next, clicking the forward arrow.\n</div>",
+        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>General Electric buys small Michigan-based tech startup</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"bought,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that General Electric was the acquirer. But it does not say who the acquired company was. \n<br><br>\nWe COPY and PASTE General Electric in the acquirer box, and leave the \"acquiree\" box blank, and move to the next, clicking the forward arrow.\n</div>",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -1867,14 +1867,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID9",
-      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Slack purchase: what does this mean for the future of CRM?</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"purchased,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that Slack was acquired. But it does not say what company was the acquirer.\n<br><br>\nWe COPY and PASTE Slack in the acquiree box, and leave the \"acquirer\" box blank, and move to the next, clicking the forward arrow.\n</div>",
+      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Slack purchase: what does this mean for the future of CRM?</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"purchased,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that Slack was acquired. But it does not say what company was the acquirer.\n<br><br>\nWe COPY and PASTE Slack in the acquiree box, and leave the \"acquirer\" box blank, and move to the next, clicking the forward arrow.\n</div>",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Slack purchase: what does this mean for the future of CRM?</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"purchased,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that Slack was acquired. But it does not say what company was the acquirer.\n<br><br>\nWe COPY and PASTE Slack in the acquiree box, and leave the \"acquirer\" box blank, and move to the next, clicking the forward arrow.\n</div>",
+        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Slack purchase: what does this mean for the future of CRM?</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"purchased,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that Slack was acquired. But it does not say what company was the acquirer.\n<br><br>\nWe COPY and PASTE Slack in the acquiree box, and leave the \"acquirer\" box blank, and move to the next, clicking the forward arrow.\n</div>",
         "QuestionID": "QID9",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Slack purchase: what does this mean for the future of CRM?</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"purchased,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that Slack was acquired. But it does not say what company was the acquirer.\n<br><br>\nWe COPY and PASTE Slack in the acquiree box, and leave the \"acquirer\" box blank, and move to the next, clicking the forward arrow.\n</div>",
+        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Slack purchase: what does this mean for the future of CRM?</b>\n<br><br>\nThis headline is about an <b>acquisition</b>. It talks about a company being \"purchased,\" which is another way of saying acquired. We click \"Acquisition\" in the drop-down box.\n<br><br>\nThis headline writes that Slack was acquired. But it does not say what company was the acquirer.\n<br><br>\nWe COPY and PASTE Slack in the acquiree box, and leave the \"acquirer\" box blank, and move to the next, clicking the forward arrow.\n</div>",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -1920,14 +1920,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID10",
-      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Facebook Twitter Google Share RSS Feed</b>\n<br><br>\nThis text is not a headline. So we click \"Neither / Not sure / Unclear\" in the drop-down box.\n</div>",
+      "SecondaryAttribute": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Facebook Twitter Google Share RSS Feed</b>\n<br><br>\nThis text is not a headline. So we click \"Neither / Not sure / Unclear\" in the drop-down box.\n</div>",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Facebook Twitter Google Share RSS Feed</b>\n<br><br>\nThis text is not a headline. So we click \"Neither / Not sure / Unclear\" in the drop-down box.\n</div>",
+        "QuestionText": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Facebook Twitter Google Share RSS Feed</b>\n<br><br>\nThis text is not a headline. So we click \"Neither / Not sure / Unclear\" in the drop-down box.\n</div>",
         "QuestionID": "QID10",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING IN PROGRESS</b><br><br><div style = 'font-family: Monaco;'>\n<b>Facebook Twitter Google Share RSS Feed</b>\n<br><br>\nThis text is not a headline. So we click \"Neither / Not sure / Unclear\" in the drop-down box.\n</div>",
+        "QuestionDescription": "<b style = 'color: #6082B6;'>TRAINING: Please read the headlines and explanation carefully.</b><br><br><div style = 'font-family: Monaco;'>\n<b>Facebook Twitter Google Share RSS Feed</b>\n<br><br>\nThis text is not a headline. So we click \"Neither / Not sure / Unclear\" in the drop-down box.\n</div>",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -2036,14 +2036,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID66",
-      "SecondaryAttribute": "Headline: Zeta acquiring Regal Petroleum Romania",
+      "SecondaryAttribute": "Headline: . Final Report/Profit Release/1:1 Bonus Share I",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>Zeta acquiring Regal Petroleum Romania</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>. Final Report/Profit Release/1:1 Bonus Share I</b>\n",
         "QuestionID": "QID66",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "Zeta acquiring Regal Petroleum Romania",
+        "QuestionDescription": ". Final Report/Profit Release/1:1 Bonus Share I",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -2060,17 +2060,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -2129,17 +2129,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -2185,17 +2185,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -2241,17 +2241,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -2304,17 +2304,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -2325,14 +2325,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID71",
-      "SecondaryAttribute": "Headline: WorleyParsons acquiring CNEC Engenharia",
+      "SecondaryAttribute": "Headline: . Monthly Traffic&amp;Capacity Stats-May 2000/Co.Up",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>WorleyParsons acquiring CNEC Engenharia</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>. Monthly Traffic&amp;Capacity Stats-May 2000/Co.Up</b>\n",
         "QuestionID": "QID71",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "WorleyParsons acquiring CNEC Engenharia",
+        "QuestionDescription": ". Monthly Traffic&amp;Capacity Stats-May 2000/Co.Up",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -2357,9 +2357,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -2426,9 +2426,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -2482,9 +2482,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -2538,9 +2538,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -2601,9 +2601,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -2614,14 +2614,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID76",
-      "SecondaryAttribute": "Headline: Orica acquiring Strata Control Systems",
+      "SecondaryAttribute": "Headline: Resolute continues Syama ramp-up",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>Orica acquiring Strata Control Systems</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>Resolute continues Syama ramp-up</b>\n",
         "QuestionID": "QID76",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "Orica acquiring Strata Control Systems",
+        "QuestionDescription": "Resolute continues Syama ramp-up",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -2903,14 +2903,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID81",
-      "SecondaryAttribute": "Headline: Blackgold acquiring Qijiang ChangHong Coal",
+      "SecondaryAttribute": "Headline: Cardno acquiring Perth-based Gilbert Rose Consulting",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>Blackgold acquiring Qijiang ChangHong Coal</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>Cardno acquiring Perth-based Gilbert Rose Consulting</b>\n",
         "QuestionID": "QID81",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "Blackgold acquiring Qijiang ChangHong Coal",
+        "QuestionDescription": "Cardno acquiring Perth-based Gilbert Rose Consulting",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -2927,17 +2927,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -2996,17 +2996,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -3052,17 +3052,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -3108,17 +3108,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -3171,17 +3171,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -3192,14 +3192,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID86",
-      "SecondaryAttribute": "Headline: Cardno acquiring Perth-based Gilbert Rose Consulting",
+      "SecondaryAttribute": "Headline: Ocean Capital acquiring Sunlover Cruises",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>Cardno acquiring Perth-based Gilbert Rose Consulting</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>Ocean Capital acquiring Sunlover Cruises</b>\n",
         "QuestionID": "QID86",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "Cardno acquiring Perth-based Gilbert Rose Consulting",
+        "QuestionDescription": "Ocean Capital acquiring Sunlover Cruises",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -3481,14 +3481,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID91",
-      "SecondaryAttribute": "Headline: SMS Management acquiring Pelion Group",
+      "SecondaryAttribute": "Headline: Blackgold acquiring Qijiang ChangHong Coal",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>SMS Management acquiring Pelion Group</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>Blackgold acquiring Qijiang ChangHong Coal</b>\n",
         "QuestionID": "QID91",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "SMS Management acquiring Pelion Group",
+        "QuestionDescription": "Blackgold acquiring Qijiang ChangHong Coal",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -3505,17 +3505,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -3574,17 +3574,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -3630,17 +3630,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -3686,17 +3686,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -3749,17 +3749,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -3770,14 +3770,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID96",
-      "SecondaryAttribute": "Headline: . Final Report/Profit Release/1:1 Bonus Share I",
+      "SecondaryAttribute": "Headline: Synergy Plus acquiring AirData",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>. Final Report/Profit Release/1:1 Bonus Share I</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>Synergy Plus acquiring AirData</b>\n",
         "QuestionID": "QID96",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": ". Final Report/Profit Release/1:1 Bonus Share I",
+        "QuestionDescription": "Synergy Plus acquiring AirData",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -3794,9 +3794,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
@@ -3863,9 +3863,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
@@ -3919,9 +3919,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
@@ -3975,9 +3975,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
@@ -4038,9 +4038,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
@@ -4059,14 +4059,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID101",
-      "SecondaryAttribute": "Headline: Ocean Capital acquiring Sunlover Cruises",
+      "SecondaryAttribute": "Headline: . Final Report/ASIC Annual Audited A/Cs/Media Rel",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>Ocean Capital acquiring Sunlover Cruises</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>. Final Report/ASIC Annual Audited A/Cs/Media Rel</b>\n",
         "QuestionID": "QID101",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "Ocean Capital acquiring Sunlover Cruises",
+        "QuestionDescription": ". Final Report/ASIC Annual Audited A/Cs/Media Rel",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -4083,17 +4083,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4152,17 +4152,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4208,17 +4208,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4264,17 +4264,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4327,17 +4327,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4348,14 +4348,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID106",
-      "SecondaryAttribute": "Headline: Paragon Care acquiring Tender Living Care",
+      "SecondaryAttribute": "Headline: Zeta acquiring Regal Petroleum Romania",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>Paragon Care acquiring Tender Living Care</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>Zeta acquiring Regal Petroleum Romania</b>\n",
         "QuestionID": "QID106",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "Paragon Care acquiring Tender Living Care",
+        "QuestionDescription": "Zeta acquiring Regal Petroleum Romania",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -4372,17 +4372,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4441,17 +4441,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4497,17 +4497,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4553,17 +4553,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4616,17 +4616,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4637,14 +4637,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID111",
-      "SecondaryAttribute": "Headline: Synergy Plus acquiring AirData",
+      "SecondaryAttribute": "Headline: SMS Management acquiring Pelion Group",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>Synergy Plus acquiring AirData</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>SMS Management acquiring Pelion Group</b>\n",
         "QuestionID": "QID111",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "Synergy Plus acquiring AirData",
+        "QuestionDescription": "SMS Management acquiring Pelion Group",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -4661,17 +4661,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4730,17 +4730,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4786,17 +4786,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4842,17 +4842,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4905,17 +4905,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -4926,14 +4926,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID116",
-      "SecondaryAttribute": "Headline: MIL Resources acquiring Titan Metals",
+      "SecondaryAttribute": "Headline: WorleyParsons acquiring CNEC Engenharia",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>MIL Resources acquiring Titan Metals</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>WorleyParsons acquiring CNEC Engenharia</b>\n",
         "QuestionID": "QID116",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "MIL Resources acquiring Titan Metals",
+        "QuestionDescription": "WorleyParsons acquiring CNEC Engenharia",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -4950,17 +4950,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5019,17 +5019,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5075,17 +5075,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5131,17 +5131,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5194,17 +5194,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5215,14 +5215,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID121",
-      "SecondaryAttribute": "Headline: Autodom acquiring DAIR Industries",
+      "SecondaryAttribute": "Headline: MIL Resources acquiring Titan Metals",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>Autodom acquiring DAIR Industries</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>MIL Resources acquiring Titan Metals</b>\n",
         "QuestionID": "QID121",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "Autodom acquiring DAIR Industries",
+        "QuestionDescription": "MIL Resources acquiring Titan Metals",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -5239,17 +5239,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5308,17 +5308,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5364,17 +5364,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5420,17 +5420,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5483,17 +5483,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5504,14 +5504,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID126",
-      "SecondaryAttribute": "Headline: REPLACE: MIL Resources acquiring Titan Metals",
+      "SecondaryAttribute": "Headline: QMASTOR acquiring Algosys",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>REPLACE: MIL Resources acquiring Titan Metals</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>QMASTOR acquiring Algosys</b>\n",
         "QuestionID": "QID126",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "REPLACE: MIL Resources acquiring Titan Metals",
+        "QuestionDescription": "QMASTOR acquiring Algosys",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -5528,17 +5528,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5597,17 +5597,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5653,17 +5653,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5709,17 +5709,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5772,17 +5772,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -5793,14 +5793,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID131",
-      "SecondaryAttribute": "Headline: . Final Report/ASIC Annual Audited A/Cs/Media Rel",
+      "SecondaryAttribute": "Headline: Countplus acquiring Pacific East Coast",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>. Final Report/ASIC Annual Audited A/Cs/Media Rel</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>Countplus acquiring Pacific East Coast</b>\n",
         "QuestionID": "QID131",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": ". Final Report/ASIC Annual Audited A/Cs/Media Rel",
+        "QuestionDescription": "Countplus acquiring Pacific East Coast",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -6082,14 +6082,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID136",
-      "SecondaryAttribute": "Headline: QMASTOR acquiring Algosys",
+      "SecondaryAttribute": "Headline: REPLACE: MIL Resources acquiring Titan Metals",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>QMASTOR acquiring Algosys</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>REPLACE: MIL Resources acquiring Titan Metals</b>\n",
         "QuestionID": "QID136",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "QMASTOR acquiring Algosys",
+        "QuestionDescription": "REPLACE: MIL Resources acquiring Titan Metals",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -6106,17 +6106,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -6175,17 +6175,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -6231,17 +6231,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -6287,17 +6287,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -6350,17 +6350,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "0",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -6660,14 +6660,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID146",
-      "SecondaryAttribute": "Headline: Countplus acquiring Pacific East Coast",
+      "SecondaryAttribute": "Headline: Orica acquiring Strata Control Systems",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>Countplus acquiring Pacific East Coast</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>Orica acquiring Strata Control Systems</b>\n",
         "QuestionID": "QID146",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "Countplus acquiring Pacific East Coast",
+        "QuestionDescription": "Orica acquiring Strata Control Systems",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -6692,9 +6692,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -6761,9 +6761,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -6817,9 +6817,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -6873,9 +6873,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -6936,9 +6936,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -6949,14 +6949,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID151",
-      "SecondaryAttribute": "Headline: Resolute continues Syama ramp-up",
+      "SecondaryAttribute": "Headline: Greencap acquiring MC2 Pacific",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>Resolute continues Syama ramp-up</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>Greencap acquiring MC2 Pacific</b>\n",
         "QuestionID": "QID151",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "Resolute continues Syama ramp-up",
+        "QuestionDescription": "Greencap acquiring MC2 Pacific",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -6973,17 +6973,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7042,17 +7042,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7098,17 +7098,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7154,17 +7154,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7217,17 +7217,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "0",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 0 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "1",
+              "RightOperand": "3",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7238,14 +7238,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID156",
-      "SecondaryAttribute": "Headline: Greencap acquiring MC2 Pacific",
+      "SecondaryAttribute": "Headline: Autodom acquiring DAIR Industries",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>Greencap acquiring MC2 Pacific</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>Autodom acquiring DAIR Industries</b>\n",
         "QuestionID": "QID156",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": "Greencap acquiring MC2 Pacific",
+        "QuestionDescription": "Autodom acquiring DAIR Industries",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -7262,17 +7262,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7331,17 +7331,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7387,17 +7387,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7443,17 +7443,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7506,17 +7506,17 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "2",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>"
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>"
             },
             "1": {
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "2",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7527,14 +7527,14 @@
       "SurveyID": "SV_eLnpGNWb3hM31cy",
       "Element": "SQ",
       "PrimaryAttribute": "QID161",
-      "SecondaryAttribute": "Headline: . Monthly Traffic&amp;Capacity Stats-May 2000/Co.Up",
+      "SecondaryAttribute": "Headline: Paragon Care acquiring Tender Living Care",
       "TertiaryAttribute": null,
       "Payload": {
-        "QuestionText": "Headline: <br><br>\n<b>. Monthly Traffic&amp;Capacity Stats-May 2000/Co.Up</b>\n",
+        "QuestionText": "Headline: <br><br>\n<b>Paragon Care acquiring Tender Living Care</b>\n",
         "QuestionID": "QID161",
         "QuestionType": "DB",
         "Selector": "TB",
-        "QuestionDescription": ". Monthly Traffic&amp;Capacity Stats-May 2000/Co.Up",
+        "QuestionDescription": "Paragon Care acquiring Tender Living Care",
         "Validation": {
           "Settings": {
             "Type": "None"
@@ -7559,9 +7559,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7628,9 +7628,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7684,9 +7684,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7740,9 +7740,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }
@@ -7803,9 +7803,9 @@
               "LogicType": "EmbeddedField",
               "LeftOperand": "respondentID",
               "Operator": "EqualTo",
-              "RightOperand": "3",
+              "RightOperand": "1",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
+              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 1 </span>",
               "Conjuction": "Or"
             }
           }

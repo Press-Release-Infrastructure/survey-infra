@@ -1,11 +1,11 @@
 pg1 = """
-We are working on a non-profit project for research purposes to identify <b>company acquisitions</b> and <b>mergers</b> from a large number of business headlines.
+We are working on a non-profit project for research purposes to classify business headlines. This is an introductory survey that will take about %s minutes. <b>We will contact "Super workers" who have high rates of accuracy with additional opportunities to work.</b>
+<br><br>
+The purpose of our project is to identify <b>company acquisitions</b> and <b>mergers</b> from a large number of business headlines. 
 <br><br>
 An <b>acquisition</b> is when one company buys another company. 
 <br><br>
 A <b>merger</b> is when two companies join together as equals.
-<br><br>
-<b>If you are identified as a high-accuracy worker in this survey, you will have the opportunity to complete additional, paid follow-up surveys.</b>
 """
 
 pg1_alt = """
@@ -42,9 +42,9 @@ Your task is to review a maximum of %s headlines, which will take about %s minut
 <br><br>
 First, we will provide training. We will show you examples of headlines and how they should be classified.
 <br><br>
-Second, we will give you a test. We will show you headlines we have already tested and record your answers. <b>If you classify most of the test headlines correctly, you will move on to the next task.</b> If there are too many errors, we will pay you for your time but you will not be able to proceed with more work.
+Then, you will start the work of reading headlines and recording acquisitions. 
 <br><br>
-Third, you will start the work of reading headlines and recording acquisitions. <b>NOTE: we will periodically include test headlines at random intervals to check that you are paying attention.</b> If you do not answer these questions correctly, we will end your session. We will pay you for your time but you will not be able to proceed with the work.
+<b>We will periodically include test headlines at random intervals to check that you are paying attention.</b> If you answer test headlines correctly, you will have the opportunity to do more work on this project. We will contact you with additional survey opportunities. 
 """
 
 pg5 = """
