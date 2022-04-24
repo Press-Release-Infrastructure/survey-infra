@@ -250,7 +250,7 @@ survey_info["SurveyElements"] = [
 						"VariableType": "String",
 						"DataVisibility": [],
 						"AnalyzeText": False,
-						"Value": "${qo://QO_wsLz1sdn4gxRJxy/QuotaCount}"
+						"Value": "${rand://int/0:" + str(num_students - 1) + "}"
 					}
 				]
           	},
@@ -358,35 +358,36 @@ survey_info["SurveyElements"] = [
 	{
       "SurveyID": "{}".format(survey_id),
       "Element": "QO",
-      "PrimaryAttribute": "QO_wsLz1sdn4gxRJxy",
-      "SecondaryAttribute": "Number of respondents",
+      "PrimaryAttribute": "QO_IJT5FQU4tu7CjjC",
+      "SecondaryAttribute": "In-progress respondents",
       "TertiaryAttribute": None,
       "Payload": {
-        "Name": "Number of respondents",
+        "Name": "In-progress respondents",
         "Occurrences": num_students,
         "Logic": {
           "0": {
             "0": {
-              "LogicType": "Quota",
-              "QuotaID": "QO_wsLz1sdn4gxRJxy",
-              "QuotaType": "Simple",
-              "Operator": "QuotaMet",
-              "LeftOperand": "qo://QO_wsLz1sdn4gxRJxy/QuotaMet",
-              "QuotaName": "Number of respondents",
+              "LogicType": "Question",
+              "QuestionID": "QID1",
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://QID1/DisplayableQuestion/1",
+              "Operator": "Displayed",
+              "QuestionIDFromLocator": "QID1",
+              "LeftOperand": "q://QID1/QuestionDisplayed",
               "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Quota</span> <span class=\"LeftOpDesc\">Number of respondents</span> <span class=\"OpDesc\">Has Been Met</span> "
+              "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">\nWe are working on a non-profit project for research purposes to identify company acquisitions and mergers from a large number of business headlines.\n\nAn acquisition is when one company buys anothe...</span> <span class=\"LeftOpDesc\"></span> <span class=\"OpDesc\">Is Displayed</span> "
             },
             "Type": "If"
           },
           "Type": "BooleanExpression"
         },
         "LogicType": "Simple",
-        "QuotaAction": "ForBranching",
-        "OverQuotaAction": "Record",
+        "QuotaAction": "EndCurrentSurvey",
+        "OverQuotaAction": None,
         "ActionInfo": {
           "0": {
             "0": {
-              "ActionType": "ForBranching",
+              "ActionType": "EndCurrentSurvey",
               "Type": "Expression",
               "LogicType": "QuotaAction"
             },
@@ -394,7 +395,7 @@ survey_info["SurveyElements"] = [
           },
           "Type": "BooleanExpression"
         },
-        "ID": "QO_wsLz1sdn4gxRJxy",
+        "ID": "QO_IJT5FQU4tu7CjjC",
         "QuotaRealm": "Survey",
         "QuotaSchedule": None,
         "EndSurveyOptions": {
@@ -417,7 +418,7 @@ survey_info["SurveyElements"] = [
         "MultipleMatch": "PlaceInAll",
         "Public": False,
         "Quotas": [
-          "QO_wsLz1sdn4gxRJxy"
+          "QO_IJT5FQU4tu7CjjC"
         ]
       }
     },

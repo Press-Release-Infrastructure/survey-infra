@@ -1,61 +1,547 @@
 ,QID,Headline,QType
-0,QID67,. Final Report/Profit Release/1:1 Bonus Share I,0
-1,QID68,. Final Report/Profit Release/1:1 Bonus Share I,1
-2,QID69,. Final Report/Profit Release/1:1 Bonus Share I,2
-3,QID72,. Monthly Traffic&amp;Capacity Stats-May 2000/Co.Up,0
-4,QID73,. Monthly Traffic&amp;Capacity Stats-May 2000/Co.Up,1
-5,QID74,. Monthly Traffic&amp;Capacity Stats-May 2000/Co.Up,2
-6,QID77,Resolute continues Syama ramp-up,0
-7,QID78,Resolute continues Syama ramp-up,1
-8,QID79,Resolute continues Syama ramp-up,2
-9,QID82,Cardno acquiring Perth-based Gilbert Rose Consulting,0
-10,QID83,Cardno acquiring Perth-based Gilbert Rose Consulting,1
-11,QID84,Cardno acquiring Perth-based Gilbert Rose Consulting,2
-12,QID87,Ocean Capital acquiring Sunlover Cruises,0
-13,QID88,Ocean Capital acquiring Sunlover Cruises,1
-14,QID89,Ocean Capital acquiring Sunlover Cruises,2
-15,QID92,Blackgold acquiring Qijiang ChangHong Coal,0
-16,QID93,Blackgold acquiring Qijiang ChangHong Coal,1
-17,QID94,Blackgold acquiring Qijiang ChangHong Coal,2
-18,QID97,Synergy Plus acquiring AirData,0
-19,QID98,Synergy Plus acquiring AirData,1
-20,QID99,Synergy Plus acquiring AirData,2
-21,QID102,. Final Report/ASIC Annual Audited A/Cs/Media Rel,0
-22,QID103,. Final Report/ASIC Annual Audited A/Cs/Media Rel,1
-23,QID104,. Final Report/ASIC Annual Audited A/Cs/Media Rel,2
-24,QID107,Zeta acquiring Regal Petroleum Romania,0
-25,QID108,Zeta acquiring Regal Petroleum Romania,1
-26,QID109,Zeta acquiring Regal Petroleum Romania,2
-27,QID112,SMS Management acquiring Pelion Group,0
-28,QID113,SMS Management acquiring Pelion Group,1
-29,QID114,SMS Management acquiring Pelion Group,2
-30,QID117,WorleyParsons acquiring CNEC Engenharia,0
-31,QID118,WorleyParsons acquiring CNEC Engenharia,1
-32,QID119,WorleyParsons acquiring CNEC Engenharia,2
-33,QID122,MIL Resources acquiring Titan Metals,0
-34,QID123,MIL Resources acquiring Titan Metals,1
-35,QID124,MIL Resources acquiring Titan Metals,2
-36,QID127,QMASTOR acquiring Algosys,0
-37,QID128,QMASTOR acquiring Algosys,1
-38,QID129,QMASTOR acquiring Algosys,2
-39,QID132,Countplus acquiring Pacific East Coast,0
-40,QID133,Countplus acquiring Pacific East Coast,1
-41,QID134,Countplus acquiring Pacific East Coast,2
-42,QID137,REPLACE: MIL Resources acquiring Titan Metals,0
-43,QID138,REPLACE: MIL Resources acquiring Titan Metals,1
-44,QID139,REPLACE: MIL Resources acquiring Titan Metals,2
-45,QID142,. Final Report/Media Release/Mgt Discussion Anal,0
-46,QID143,. Final Report/Media Release/Mgt Discussion Anal,1
-47,QID144,. Final Report/Media Release/Mgt Discussion Anal,2
-48,QID147,Orica acquiring Strata Control Systems,0
-49,QID148,Orica acquiring Strata Control Systems,1
-50,QID149,Orica acquiring Strata Control Systems,2
-51,QID152,Greencap acquiring MC2 Pacific,0
-52,QID153,Greencap acquiring MC2 Pacific,1
-53,QID154,Greencap acquiring MC2 Pacific,2
-54,QID157,Autodom acquiring DAIR Industries,0
-55,QID158,Autodom acquiring DAIR Industries,1
-56,QID159,Autodom acquiring DAIR Industries,2
-57,QID162,Paragon Care acquiring Tender Living Care,0
-58,QID163,Paragon Care acquiring Tender Living Care,1
-59,QID164,Paragon Care acquiring Tender Living Care,2
+0,QID67,"Volvo Groupintroduces new organization for its dealer networks in Europe, the Middle East and Africa",0
+1,QID68,"Volvo Groupintroduces new organization for its dealer networks in Europe, the Middle East and Africa",1
+2,QID69,"Volvo Groupintroduces new organization for its dealer networks in Europe, the Middle East and Africa",2
+3,QID72,Introduces New SaaS enabled Dynamic Sim Allocation(tm) Solution,0
+4,QID73,Introduces New SaaS enabled Dynamic Sim Allocation(tm) Solution,1
+5,QID74,Introduces New SaaS enabled Dynamic Sim Allocation(tm) Solution,2
+6,QID77,Launch Of Cloud enabled Telemetrics Platform For The Oil &amp;Gas Industry,0
+7,QID78,Launch Of Cloud enabled Telemetrics Platform For The Oil &amp;Gas Industry,1
+8,QID79,Launch Of Cloud enabled Telemetrics Platform For The Oil &amp;Gas Industry,2
+9,QID82,Year-End Report for Duni AB (publ) 1 January - 31 December 2013,0
+10,QID83,Year-End Report for Duni AB (publ) 1 January - 31 December 2013,1
+11,QID84,Year-End Report for Duni AB (publ) 1 January - 31 December 2013,2
+12,QID87,Scandic one of the highest-scoring Nordic companies in the CDP Climate Change Report 2016,0
+13,QID88,Scandic one of the highest-scoring Nordic companies in the CDP Climate Change Report 2016,1
+14,QID89,Scandic one of the highest-scoring Nordic companies in the CDP Climate Change Report 2016,2
+15,QID92,SAS traffic figures - September 2018,0
+16,QID93,SAS traffic figures - September 2018,1
+17,QID94,SAS traffic figures - September 2018,2
+18,QID97,To Showcase Vee enabled Display Daughter Card For Dragonboard At The QualcommUplinq Conference,0
+19,QID98,To Showcase Vee enabled Display Daughter Card For Dragonboard At The QualcommUplinq Conference,1
+20,QID99,To Showcase Vee enabled Display Daughter Card For Dragonboard At The QualcommUplinq Conference,2
+21,QID102,DiaGenic continues efforts to find a financial solution,0
+22,QID103,DiaGenic continues efforts to find a financial solution,1
+23,QID104,DiaGenic continues efforts to find a financial solution,2
+24,QID107,NextGenTel signs agreement to acquire Kvantel and Kvantel Voice,0
+25,QID108,NextGenTel signs agreement to acquire Kvantel and Kvantel Voice,1
+26,QID109,NextGenTel signs agreement to acquire Kvantel and Kvantel Voice,2
+27,QID112,Boule Diagnostics signs agreement with CVS Group,0
+28,QID113,Boule Diagnostics signs agreement with CVS Group,1
+29,QID114,Boule Diagnostics signs agreement with CVS Group,2
+30,QID117,Ringi partners with Ivana Helsinki to design fashion phone calls,0
+31,QID118,Ringi partners with Ivana Helsinki to design fashion phone calls,1
+32,QID119,Ringi partners with Ivana Helsinki to design fashion phone calls,2
+33,QID122,Valutec seals major kiln deal with Keitele Timber,0
+34,QID123,Valutec seals major kiln deal with Keitele Timber,1
+35,QID124,Valutec seals major kiln deal with Keitele Timber,2
+36,QID127,Management changes,0
+37,QID128,Management changes,1
+38,QID129,Management changes,2
+39,QID132,To Showcase Vee enabled Display Daughter Card For Dragonboard At The Qualcomm Uplinq Conference,0
+40,QID133,To Showcase Vee enabled Display Daughter Card For Dragonboard At The Qualcomm Uplinq Conference,1
+41,QID134,To Showcase Vee enabled Display Daughter Card For Dragonboard At The Qualcomm Uplinq Conference,2
+42,QID137,Investing $1 Billion To Make Vancouver The World\'s Next Gigabit enabled City,0
+43,QID138,Investing $1 Billion To Make Vancouver The World\'s Next Gigabit enabled City,1
+44,QID139,Investing $1 Billion To Make Vancouver The World\'s Next Gigabit enabled City,2
+45,QID142,Whitby Abilities Centre Provides Community New Levels Of Accessibility With Cisco enabled Kiosk,0
+46,QID143,Whitby Abilities Centre Provides Community New Levels Of Accessibility With Cisco enabled Kiosk,1
+47,QID144,Whitby Abilities Centre Provides Community New Levels Of Accessibility With Cisco enabled Kiosk,2
+48,QID147,"Further Strengthens Digital Platform By Acquiring Clearlink, A Leader In Tech enabled Demand Generation And Sales Conversion Services",0
+49,QID148,"Further Strengthens Digital Platform By Acquiring Clearlink, A Leader In Tech enabled Demand Generation And Sales Conversion Services",1
+50,QID149,"Further Strengthens Digital Platform By Acquiring Clearlink, A Leader In Tech enabled Demand Generation And Sales Conversion Services",2
+51,QID152,#18-288 Listing of Turbo warrants issued by BNP Paribas Issuance B.V.,0
+52,QID153,#18-288 Listing of Turbo warrants issued by BNP Paribas Issuance B.V.,1
+53,QID154,#18-288 Listing of Turbo warrants issued by BNP Paribas Issuance B.V.,2
+54,QID157,-ABSA-Mandela Children\'s Hospital enabled,0
+55,QID158,-ABSA-Mandela Children\'s Hospital enabled,1
+56,QID159,-ABSA-Mandela Children\'s Hospital enabled,2
+57,QID162,Autoliv Research to Launch Learning Intelligent Vehicle,0
+58,QID163,Autoliv Research to Launch Learning Intelligent Vehicle,1
+59,QID164,Autoliv Research to Launch Learning Intelligent Vehicle,2
+60,QID167,Agellis receives an order for 2.8 million SEK from a smelter plant in Norway,0
+61,QID168,Agellis receives an order for 2.8 million SEK from a smelter plant in Norway,1
+62,QID169,Agellis receives an order for 2.8 million SEK from a smelter plant in Norway,2
+63,QID172,COMPUTER ASSOCIATES\xc2\xa0<br/>\xc2\xa0\xc2\xa0CA-Masterpiece Internet enabled,0
+64,QID173,COMPUTER ASSOCIATES\xc2\xa0<br/>\xc2\xa0\xc2\xa0CA-Masterpiece Internet enabled,1
+65,QID174,COMPUTER ASSOCIATES\xc2\xa0<br/>\xc2\xa0\xc2\xa0CA-Masterpiece Internet enabled,2
+66,QID177,TeliaSonera International Carrier IPv6 enabled,0
+67,QID178,TeliaSonera International Carrier IPv6 enabled,1
+68,QID179,TeliaSonera International Carrier IPv6 enabled,2
+69,QID182,Notice of Extraordinary General Meeting of Nederman Holding AB (publ),0
+70,QID183,Notice of Extraordinary General Meeting of Nederman Holding AB (publ),1
+71,QID184,Notice of Extraordinary General Meeting of Nederman Holding AB (publ),2
+72,QID187,OX2 sells 42 MW wind farm to IKEA in Finland,0
+73,QID188,OX2 sells 42 MW wind farm to IKEA in Finland,1
+74,QID189,OX2 sells 42 MW wind farm to IKEA in Finland,2
+75,QID192,Opcon Powerbox - first order in Hungary,0
+76,QID193,Opcon Powerbox - first order in Hungary,1
+77,QID194,Opcon Powerbox - first order in Hungary,2
+78,QID197,At Crucible Store: A Shopping Experience unlike Anyone Else,0
+79,QID198,At Crucible Store: A Shopping Experience unlike Anyone Else,1
+80,QID199,At Crucible Store: A Shopping Experience unlike Anyone Else,2
+81,QID202,Annual Report 2015,0
+82,QID203,Annual Report 2015,1
+83,QID204,Annual Report 2015,2
+84,QID207,Proxy Rights for the Extraordinary General Meeting,0
+85,QID208,Proxy Rights for the Extraordinary General Meeting,1
+86,QID209,Proxy Rights for the Extraordinary General Meeting,2
+87,QID212,Introduces 3G Voice enabled Embedded Module Product Portfolio For Integrated Wide Area Wireless Connectivity,0
+88,QID213,Introduces 3G Voice enabled Embedded Module Product Portfolio For Integrated Wide Area Wireless Connectivity,1
+89,QID214,Introduces 3G Voice enabled Embedded Module Product Portfolio For Integrated Wide Area Wireless Connectivity,2
+90,QID217,Bulletin from Elekta's Annual General Meeting 2016,0
+91,QID218,Bulletin from Elekta's Annual General Meeting 2016,1
+92,QID219,Bulletin from Elekta's Annual General Meeting 2016,2
+93,QID222,Nine-month interim report 2012/2013: Sectra increases order bookings and improves earnings,0
+94,QID223,Nine-month interim report 2012/2013: Sectra increases order bookings and improves earnings,1
+95,QID224,Nine-month interim report 2012/2013: Sectra increases order bookings and improves earnings,2
+96,QID227,Eirik Lie appointed President of Kongsberg Defence Systems,0
+97,QID228,Eirik Lie appointed President of Kongsberg Defence Systems,1
+98,QID229,Eirik Lie appointed President of Kongsberg Defence Systems,2
+99,QID232,Estee Lauder And Google Collaborate On Voice enabled Beauty Experiences,0
+100,QID233,Estee Lauder And Google Collaborate On Voice enabled Beauty Experiences,1
+101,QID234,Estee Lauder And Google Collaborate On Voice enabled Beauty Experiences,2
+102,QID237,New Innovations In Fabric enabled Networking,0
+103,QID238,New Innovations In Fabric enabled Networking,1
+104,QID239,New Innovations In Fabric enabled Networking,2
+105,QID242,"Interim Report,1 January - 30 June 2017",0
+106,QID243,"Interim Report,1 January - 30 June 2017",1
+107,QID244,"Interim Report,1 January - 30 June 2017",2
+108,QID247,Harman And Baidu Form Global Partnership To Develop Speech enabled Smart Speakers,0
+109,QID248,Harman And Baidu Form Global Partnership To Develop Speech enabled Smart Speakers,1
+110,QID249,Harman And Baidu Form Global Partnership To Develop Speech enabled Smart Speakers,2
+111,QID252,Presentation on todays Press- and Analyst Conference,0
+112,QID253,Presentation on todays Press- and Analyst Conference,1
+113,QID254,Presentation on todays Press- and Analyst Conference,2
+114,QID257,SAS traffic figures - September 2018,0
+115,QID258,SAS traffic figures - September 2018,1
+116,QID259,SAS traffic figures - September 2018,2
+117,QID262,"Introduces Tubefriends, An Ultrasonic enabled Toy Offering A New Way To Experience Youtube",0
+118,QID263,"Introduces Tubefriends, An Ultrasonic enabled Toy Offering A New Way To Experience Youtube",1
+119,QID264,"Introduces Tubefriends, An Ultrasonic enabled Toy Offering A New Way To Experience Youtube",2
+120,QID267,"Axos(tm), The World\'s Most Advanced Operating System For The Sdn enabled Access Network",0
+121,QID268,"Axos(tm), The World\'s Most Advanced Operating System For The Sdn enabled Access Network",1
+122,QID269,"Axos(tm), The World\'s Most Advanced Operating System For The Sdn enabled Access Network",2
+123,QID272,Casual Dining show shortlisted for two industry awards,0
+124,QID273,Casual Dining show shortlisted for two industry awards,1
+125,QID274,Casual Dining show shortlisted for two industry awards,2
+126,QID277,"Anders Holmgren leaves Cherry, effective immediately",0
+127,QID278,"Anders Holmgren leaves Cherry, effective immediately",1
+128,QID279,"Anders Holmgren leaves Cherry, effective immediately",2
+129,QID282,Tele2 AB sells Tele2 Norway to TeliaSonera for SEK 5.1 billion,0
+130,QID283,Tele2 AB sells Tele2 Norway to TeliaSonera for SEK 5.1 billion,1
+131,QID284,Tele2 AB sells Tele2 Norway to TeliaSonera for SEK 5.1 billion,2
+132,QID287,NEW CHIEF FINANCIAL OFFICER WITH FRED. OLSEN & CO.,0
+133,QID288,NEW CHIEF FINANCIAL OFFICER WITH FRED. OLSEN & CO.,1
+134,QID289,NEW CHIEF FINANCIAL OFFICER WITH FRED. OLSEN & CO.,2
+135,QID292,Signs Joint Development Agreement With One Of Asia\'s Fastest Growing Providers Of Mobile Devices And Accessories; Anymode Develops Wattup(tm) enabled Mobile Accessories,0
+136,QID293,Signs Joint Development Agreement With One Of Asia\'s Fastest Growing Providers Of Mobile Devices And Accessories; Anymode Develops Wattup(tm) enabled Mobile Accessories,1
+137,QID294,Signs Joint Development Agreement With One Of Asia\'s Fastest Growing Providers Of Mobile Devices And Accessories; Anymode Develops Wattup(tm) enabled Mobile Accessories,2
+138,QID297,Niclas Mårtensson assumes the position of CEO at Stena Line,0
+139,QID298,Niclas Mårtensson assumes the position of CEO at Stena Line,1
+140,QID299,Niclas Mårtensson assumes the position of CEO at Stena Line,2
+141,QID302,Initiates Shipments Of Internet enabled Tablets From New Indian Assembly Facility,0
+142,QID303,Initiates Shipments Of Internet enabled Tablets From New Indian Assembly Facility,1
+143,QID304,Initiates Shipments Of Internet enabled Tablets From New Indian Assembly Facility,2
+144,QID307,"Further Strengthens Digital Platform By Acquiring Clearlink, A Leader In Tech enabled Demand Generation And Sales Conversion Services",0
+145,QID308,"Further Strengthens Digital Platform By Acquiring Clearlink, A Leader In Tech enabled Demand Generation And Sales Conversion Services",1
+146,QID309,"Further Strengthens Digital Platform By Acquiring Clearlink, A Leader In Tech enabled Demand Generation And Sales Conversion Services",2
+147,QID312,STOREBRAND ASA: INVITATION TO RESULT PRESENTATIONS,0
+148,QID313,STOREBRAND ASA: INVITATION TO RESULT PRESENTATIONS,1
+149,QID314,STOREBRAND ASA: INVITATION TO RESULT PRESENTATIONS,2
+150,QID317,"Coor issues bonds of SEK 1,000 million",0
+151,QID318,"Coor issues bonds of SEK 1,000 million",1
+152,QID319,"Coor issues bonds of SEK 1,000 million",2
+153,QID322,Interim Report November 2014 - January 2015,0
+154,QID323,Interim Report November 2014 - January 2015,1
+155,QID324,Interim Report November 2014 - January 2015,2
+156,QID327,Catholic Health System Relies On Juniper Networks To Deliver Secure Network enabled Patient Care,0
+157,QID328,Catholic Health System Relies On Juniper Networks To Deliver Secure Network enabled Patient Care,1
+158,QID329,Catholic Health System Relies On Juniper Networks To Deliver Secure Network enabled Patient Care,2
+159,QID332,Autoliv Research to Launch Learning Intelligent Vehicle,0
+160,QID333,Autoliv Research to Launch Learning Intelligent Vehicle,1
+161,QID334,Autoliv Research to Launch Learning Intelligent Vehicle,2
+162,QID337,"JM's Board of Directors proposes convertible debenture and warrant programmes, as well as a decrease in share capital",0
+163,QID338,"JM's Board of Directors proposes convertible debenture and warrant programmes, as well as a decrease in share capital",1
+164,QID339,"JM's Board of Directors proposes convertible debenture and warrant programmes, as well as a decrease in share capital",2
+165,QID342,"Shoppable, Digimarc And Shopadvisor enabled Print Magazines Delight Holiday Shoppers",0
+166,QID343,"Shoppable, Digimarc And Shopadvisor enabled Print Magazines Delight Holiday Shoppers",1
+167,QID344,"Shoppable, Digimarc And Shopadvisor enabled Print Magazines Delight Holiday Shoppers",2
+168,QID347,Alex Grossman To Give Keynote Address On True Cloud enabled Workflow At Creative Storage Conference,0
+169,QID348,Alex Grossman To Give Keynote Address On True Cloud enabled Workflow At Creative Storage Conference,1
+170,QID349,Alex Grossman To Give Keynote Address On True Cloud enabled Workflow At Creative Storage Conference,2
+171,QID352,Ethiopian Airlines joins Star Alliance,0
+172,QID353,Ethiopian Airlines joins Star Alliance,1
+173,QID354,Ethiopian Airlines joins Star Alliance,2
+174,QID357,"Bong strengthens its financial position; launches fully underwritten rights issue, set-off issues and convertible bonds issue",0
+175,QID358,"Bong strengthens its financial position; launches fully underwritten rights issue, set-off issues and convertible bonds issue",1
+176,QID359,"Bong strengthens its financial position; launches fully underwritten rights issue, set-off issues and convertible bonds issue",2
+177,QID362,Notice of Extraordinary General Meeting of Nederman Holding AB (publ),0
+178,QID363,Notice of Extraordinary General Meeting of Nederman Holding AB (publ),1
+179,QID364,Notice of Extraordinary General Meeting of Nederman Holding AB (publ),2
+180,QID367,EQT Mid Market Europe invests in Open Systems AG,0
+181,QID368,EQT Mid Market Europe invests in Open Systems AG,1
+182,QID369,EQT Mid Market Europe invests in Open Systems AG,2
+183,QID372,Opcon Powerbox - first order in Hungary,0
+184,QID373,Opcon Powerbox - first order in Hungary,1
+185,QID374,Opcon Powerbox - first order in Hungary,2
+186,QID377,Creditors' meeting for Northland's subsidiaries in reorganization,0
+187,QID378,Creditors' meeting for Northland's subsidiaries in reorganization,1
+188,QID379,Creditors' meeting for Northland's subsidiaries in reorganization,2
+189,QID382,Finavia and Capital Airports Holding Company Establish Sister Airport Relationship,0
+190,QID383,Finavia and Capital Airports Holding Company Establish Sister Airport Relationship,1
+191,QID384,Finavia and Capital Airports Holding Company Establish Sister Airport Relationship,2
+192,QID387,Ralph Riber leaving as IES's CEO,0
+193,QID388,Ralph Riber leaving as IES's CEO,1
+194,QID389,Ralph Riber leaving as IES's CEO,2
+195,QID392,"Mecenat has passed 900,000 downloads of their app",0
+196,QID393,"Mecenat has passed 900,000 downloads of their app",1
+197,QID394,"Mecenat has passed 900,000 downloads of their app",2
+198,QID397,Oti Enters Emv Countertop Reader Market With Apple Pay enabled Solution,0
+199,QID398,Oti Enters Emv Countertop Reader Market With Apple Pay enabled Solution,1
+200,QID399,Oti Enters Emv Countertop Reader Market With Apple Pay enabled Solution,2
+201,QID402,"Reinvents Data Backup With Predictive, Social enabled Data Protection",0
+202,QID403,"Reinvents Data Backup With Predictive, Social enabled Data Protection",1
+203,QID404,"Reinvents Data Backup With Predictive, Social enabled Data Protection",2
+204,QID407,Interim report 1 January - 31 March 2013: Higher net interest and continued low loan losses,0
+205,QID408,Interim report 1 January - 31 March 2013: Higher net interest and continued low loan losses,1
+206,QID409,Interim report 1 January - 31 March 2013: Higher net interest and continued low loan losses,2
+207,QID412,Annual Review 2017,0
+208,QID413,Annual Review 2017,1
+209,QID414,Annual Review 2017,2
+210,QID417,New Innovations In Fabric enabled Networking,0
+211,QID418,New Innovations In Fabric enabled Networking,1
+212,QID419,New Innovations In Fabric enabled Networking,2
+213,QID422,Gränges completes US acquisition,0
+214,QID423,Gränges completes US acquisition,1
+215,QID424,Gränges completes US acquisition,2
+216,QID427,Presentation of the 3rd quarter results 2018,0
+217,QID428,Presentation of the 3rd quarter results 2018,1
+218,QID429,Presentation of the 3rd quarter results 2018,2
+219,QID432,"Skanska signs major lease at 121 Seaport in Boston, USA",0
+220,QID433,"Skanska signs major lease at 121 Seaport in Boston, USA",1
+221,QID434,"Skanska signs major lease at 121 Seaport in Boston, USA",2
+222,QID437,DDM Treasury Sweden AB: Interim report January-June 2016,0
+223,QID438,DDM Treasury Sweden AB: Interim report January-June 2016,1
+224,QID439,DDM Treasury Sweden AB: Interim report January-June 2016,2
+225,QID442,To Showcase Vee enabled Display Daughter Card For Dragonboard At The QualcommUplinq Conference,0
+226,QID443,To Showcase Vee enabled Display Daughter Card For Dragonboard At The QualcommUplinq Conference,1
+227,QID444,To Showcase Vee enabled Display Daughter Card For Dragonboard At The QualcommUplinq Conference,2
+228,QID447,Panasonic Partner To Bring Gametree(tm) Tv Content To Viera Connect(tm) enabled Devices,0
+229,QID448,Panasonic Partner To Bring Gametree(tm) Tv Content To Viera Connect(tm) enabled Devices,1
+230,QID449,Panasonic Partner To Bring Gametree(tm) Tv Content To Viera Connect(tm) enabled Devices,2
+231,QID452,"Anders Holmgren leaves Cherry, effective immediately",0
+232,QID453,"Anders Holmgren leaves Cherry, effective immediately",1
+233,QID454,"Anders Holmgren leaves Cherry, effective immediately",2
+234,QID457,Axis presents interim results for the half year,0
+235,QID458,Axis presents interim results for the half year,1
+236,QID459,Axis presents interim results for the half year,2
+237,QID462,Signs Joint Development Agreement With One Of Asia\'s Fastest Growing Providers Of Mobile Devices And Accessories; Anymode Develops Wattup(tm) enabled Mobile Accessories,0
+238,QID463,Signs Joint Development Agreement With One Of Asia\'s Fastest Growing Providers Of Mobile Devices And Accessories; Anymode Develops Wattup(tm) enabled Mobile Accessories,1
+239,QID464,Signs Joint Development Agreement With One Of Asia\'s Fastest Growing Providers Of Mobile Devices And Accessories; Anymode Develops Wattup(tm) enabled Mobile Accessories,2
+240,QID467,Boule Diagnostics signs agreement with CVS Group,0
+241,QID468,Boule Diagnostics signs agreement with CVS Group,1
+242,QID469,Boule Diagnostics signs agreement with CVS Group,2
+243,QID472,Valutec seals major kiln deal with Keitele Timber,0
+244,QID473,Valutec seals major kiln deal with Keitele Timber,1
+245,QID474,Valutec seals major kiln deal with Keitele Timber,2
+246,QID477,#17-286 Delisting of instrument issued by BNP Paribas Arbitrage Issuance B.V.,0
+247,QID478,#17-286 Delisting of instrument issued by BNP Paribas Arbitrage Issuance B.V.,1
+248,QID479,#17-286 Delisting of instrument issued by BNP Paribas Arbitrage Issuance B.V.,2
+249,QID482,Beijer Ref acquires refrigeration wholesaler in Norway,0
+250,QID483,Beijer Ref acquires refrigeration wholesaler in Norway,1
+251,QID484,Beijer Ref acquires refrigeration wholesaler in Norway,2
+252,QID487,Investing $1 Billion To Make Vancouver The World\'s Next Gigabit enabled City,0
+253,QID488,Investing $1 Billion To Make Vancouver The World\'s Next Gigabit enabled City,1
+254,QID489,Investing $1 Billion To Make Vancouver The World\'s Next Gigabit enabled City,2
+255,QID492,Interim report January - March 2013,0
+256,QID493,Interim report January - March 2013,1
+257,QID494,Interim report January - March 2013,2
+258,QID497,"Coor issues bonds of SEK 1,000 million",0
+259,QID498,"Coor issues bonds of SEK 1,000 million",1
+260,QID499,"Coor issues bonds of SEK 1,000 million",2
+261,QID502,NCC to refurbish and expand the Harju Campus in Finland,0
+262,QID503,NCC to refurbish and expand the Harju Campus in Finland,1
+263,QID504,NCC to refurbish and expand the Harju Campus in Finland,2
+264,QID507,Siemens and Bentley partner in new digital solution to optimize capital project delivery,0
+265,QID508,Siemens and Bentley partner in new digital solution to optimize capital project delivery,1
+266,QID509,Siemens and Bentley partner in new digital solution to optimize capital project delivery,2
+267,QID512,STOREBRAND ASA: INVITATION TO RESULT PRESENTATIONS,0
+268,QID513,STOREBRAND ASA: INVITATION TO RESULT PRESENTATIONS,1
+269,QID514,STOREBRAND ASA: INVITATION TO RESULT PRESENTATIONS,2
+270,QID517,H Intressenter controls more than 96 percent of the shares in Höganäs. The final offer price is consequently SEK 337.50 per share,0
+271,QID518,H Intressenter controls more than 96 percent of the shares in Höganäs. The final offer price is consequently SEK 337.50 per share,1
+272,QID519,H Intressenter controls more than 96 percent of the shares in Höganäs. The final offer price is consequently SEK 337.50 per share,2
+273,QID522,Trading and operations update,0
+274,QID523,Trading and operations update,1
+275,QID524,Trading and operations update,2
+276,QID527,Interim Report November 2014 - January 2015,0
+277,QID528,Interim Report November 2014 - January 2015,1
+278,QID529,Interim Report November 2014 - January 2015,2
+279,QID532,"Bong strengthens its financial position; launches fully underwritten rights issue, set-off issues and convertible bonds issue",0
+280,QID533,"Bong strengthens its financial position; launches fully underwritten rights issue, set-off issues and convertible bonds issue",1
+281,QID534,"Bong strengthens its financial position; launches fully underwritten rights issue, set-off issues and convertible bonds issue",2
+282,QID537,Agellis receives an order for 2.8 million SEK from a smelter plant in Norway,0
+283,QID538,Agellis receives an order for 2.8 million SEK from a smelter plant in Norway,1
+284,QID539,Agellis receives an order for 2.8 million SEK from a smelter plant in Norway,2
+285,QID542,Hansa Medical publishes the Annual Report for 2015,0
+286,QID543,Hansa Medical publishes the Annual Report for 2015,1
+287,QID544,Hansa Medical publishes the Annual Report for 2015,2
+288,QID547,Ethiopian Airlines joins Star Alliance,0
+289,QID548,Ethiopian Airlines joins Star Alliance,1
+290,QID549,Ethiopian Airlines joins Star Alliance,2
+291,QID552,Annual General Meeting 2016,0
+292,QID553,Annual General Meeting 2016,1
+293,QID554,Annual General Meeting 2016,2
+294,QID557,Creditors' meeting for Northland's subsidiaries in reorganization,0
+295,QID558,Creditors' meeting for Northland's subsidiaries in reorganization,1
+296,QID559,Creditors' meeting for Northland's subsidiaries in reorganization,2
+297,QID562,Finavia and Capital Airports Holding Company Establish Sister Airport Relationship,0
+298,QID563,Finavia and Capital Airports Holding Company Establish Sister Airport Relationship,1
+299,QID564,Finavia and Capital Airports Holding Company Establish Sister Airport Relationship,2
+300,QID567,Previously announced Everbeauty acquisition now closed,0
+301,QID568,Previously announced Everbeauty acquisition now closed,1
+302,QID569,Previously announced Everbeauty acquisition now closed,2
+303,QID572,Introduces Industry\'s First Openflow enabled Sdn Solution For Microsoft Lync,0
+304,QID573,Introduces Industry\'s First Openflow enabled Sdn Solution For Microsoft Lync,1
+305,QID574,Introduces Industry\'s First Openflow enabled Sdn Solution For Microsoft Lync,2
+306,QID577,Kungsleden sells a property for SEK 385 m,0
+307,QID578,Kungsleden sells a property for SEK 385 m,1
+308,QID579,Kungsleden sells a property for SEK 385 m,2
+309,QID582,Oti Enters Emv Countertop Reader Market With Apple Pay enabled Solution,0
+310,QID583,Oti Enters Emv Countertop Reader Market With Apple Pay enabled Solution,1
+311,QID584,Oti Enters Emv Countertop Reader Market With Apple Pay enabled Solution,2
+312,QID587,"Mecenat has passed 900,000 downloads of their app",0
+313,QID588,"Mecenat has passed 900,000 downloads of their app",1
+314,QID589,"Mecenat has passed 900,000 downloads of their app",2
+315,QID592,Introduces 3G Voice enabled Embedded Module Product Portfolio For Integrated Wide Area Wireless Connectivity,0
+316,QID593,Introduces 3G Voice enabled Embedded Module Product Portfolio For Integrated Wide Area Wireless Connectivity,1
+317,QID594,Introduces 3G Voice enabled Embedded Module Product Portfolio For Integrated Wide Area Wireless Connectivity,2
+318,QID597,"Acquires Phoenix Interactive Design To Propel Its Transformation To A Services Led, Software enabled Company",0
+319,QID598,"Acquires Phoenix Interactive Design To Propel Its Transformation To A Services Led, Software enabled Company",1
+320,QID599,"Acquires Phoenix Interactive Design To Propel Its Transformation To A Services Led, Software enabled Company",2
+321,QID602,"Introduces Tubefriends, An Ultrasonic enabled Toy Offering A New Way To Experience Youtube",0
+322,QID603,"Introduces Tubefriends, An Ultrasonic enabled Toy Offering A New Way To Experience Youtube",1
+323,QID604,"Introduces Tubefriends, An Ultrasonic enabled Toy Offering A New Way To Experience Youtube",2
+324,QID607,"Volvo Groupintroduces new organization for its dealer networks in Europe, the Middle East and Africa",0
+325,QID608,"Volvo Groupintroduces new organization for its dealer networks in Europe, the Middle East and Africa",1
+326,QID609,"Volvo Groupintroduces new organization for its dealer networks in Europe, the Middle East and Africa",2
+327,QID612,Gränges completes US acquisition,0
+328,QID613,Gränges completes US acquisition,1
+329,QID614,Gränges completes US acquisition,2
+330,QID617,Harman And Baidu Form Global Partnership To Develop Speech enabled Smart Speakers,0
+331,QID618,Harman And Baidu Form Global Partnership To Develop Speech enabled Smart Speakers,1
+332,QID619,Harman And Baidu Form Global Partnership To Develop Speech enabled Smart Speakers,2
+333,QID622,Launch Of Cloud enabled Telemetrics Platform For The Oil &amp;Gas Industry,0
+334,QID623,Launch Of Cloud enabled Telemetrics Platform For The Oil &amp;Gas Industry,1
+335,QID624,Launch Of Cloud enabled Telemetrics Platform For The Oil &amp;Gas Industry,2
+336,QID627,Presentation on todays Press- and Analyst Conference,0
+337,QID628,Presentation on todays Press- and Analyst Conference,1
+338,QID629,Presentation on todays Press- and Analyst Conference,2
+339,QID632,TELUS Mobility Launches Bluetooth enabled BlackBerry Handheld,0
+340,QID633,TELUS Mobility Launches Bluetooth enabled BlackBerry Handheld,1
+341,QID634,TELUS Mobility Launches Bluetooth enabled BlackBerry Handheld,2
+342,QID637,Scandic one of the highest-scoring Nordic companies in the CDP Climate Change Report 2016,0
+343,QID638,Scandic one of the highest-scoring Nordic companies in the CDP Climate Change Report 2016,1
+344,QID639,Scandic one of the highest-scoring Nordic companies in the CDP Climate Change Report 2016,2
+345,QID642,Casual Dining show shortlisted for two industry awards,0
+346,QID643,Casual Dining show shortlisted for two industry awards,1
+347,QID644,Casual Dining show shortlisted for two industry awards,2
+348,QID647,Axis presents interim results for the half year,0
+349,QID648,Axis presents interim results for the half year,1
+350,QID649,Axis presents interim results for the half year,2
+351,QID652,ABB uncovers criminal activity in South Korean subsidiary,0
+352,QID653,ABB uncovers criminal activity in South Korean subsidiary,1
+353,QID654,ABB uncovers criminal activity in South Korean subsidiary,2
+354,QID657,"DIGNITANA AB LANDS THREE KEY CONTRACTS IN U.S.FOR DIGNICAP® SCALP COOLING MEDICAL DEVICE, FUELING GROWTH IN FOURTH QUARTER",0
+355,QID658,"DIGNITANA AB LANDS THREE KEY CONTRACTS IN U.S.FOR DIGNICAP® SCALP COOLING MEDICAL DEVICE, FUELING GROWTH IN FOURTH QUARTER",1
+356,QID659,"DIGNITANA AB LANDS THREE KEY CONTRACTS IN U.S.FOR DIGNICAP® SCALP COOLING MEDICAL DEVICE, FUELING GROWTH IN FOURTH QUARTER",2
+357,QID662,To Showcase Vee enabled Display Daughter Card For Dragonboard At The Qualcomm Uplinq Conference,0
+358,QID663,To Showcase Vee enabled Display Daughter Card For Dragonboard At The Qualcomm Uplinq Conference,1
+359,QID664,To Showcase Vee enabled Display Daughter Card For Dragonboard At The Qualcomm Uplinq Conference,2
+360,QID667,Rackspace Positioned In The Leaders Quadrant Of Gartner\'s Magic Quadrant For Cloud enabled Managed Hosting In Both North America And Europe,0
+361,QID668,Rackspace Positioned In The Leaders Quadrant Of Gartner\'s Magic Quadrant For Cloud enabled Managed Hosting In Both North America And Europe,1
+362,QID669,Rackspace Positioned In The Leaders Quadrant Of Gartner\'s Magic Quadrant For Cloud enabled Managed Hosting In Both North America And Europe,2
+363,QID672,"Cision AB (publ) - Interim report January-March 2012, April 24, 2012",0
+364,QID673,"Cision AB (publ) - Interim report January-March 2012, April 24, 2012",1
+365,QID674,"Cision AB (publ) - Interim report January-March 2012, April 24, 2012",2
+366,QID677,Notice of Annual General Meeting in OrganoClick AB (publ),0
+367,QID678,Notice of Annual General Meeting in OrganoClick AB (publ),1
+368,QID679,Notice of Annual General Meeting in OrganoClick AB (publ),2
+369,QID682,NCC to refurbish and expand the Harju Campus in Finland,0
+370,QID683,NCC to refurbish and expand the Harju Campus in Finland,1
+371,QID684,NCC to refurbish and expand the Harju Campus in Finland,2
+372,QID687,Wihlborgs signs leases for Baltzar City in Malmö,0
+373,QID688,Wihlborgs signs leases for Baltzar City in Malmö,1
+374,QID689,Wihlborgs signs leases for Baltzar City in Malmö,2
+375,QID692,Siemens and Bentley partner in new digital solution to optimize capital project delivery,0
+376,QID693,Siemens and Bentley partner in new digital solution to optimize capital project delivery,1
+377,QID694,Siemens and Bentley partner in new digital solution to optimize capital project delivery,2
+378,QID697,Test Press Release - 17th July,0
+379,QID698,Test Press Release - 17th July,1
+380,QID699,Test Press Release - 17th July,2
+381,QID702,#18-288 Listing of Turbo warrants issued by BNP Paribas Issuance B.V.,0
+382,QID703,#18-288 Listing of Turbo warrants issued by BNP Paribas Issuance B.V.,1
+383,QID704,#18-288 Listing of Turbo warrants issued by BNP Paribas Issuance B.V.,2
+384,QID707,-ABSA-Mandela Children\'s Hospital enabled,0
+385,QID708,-ABSA-Mandela Children\'s Hospital enabled,1
+386,QID709,-ABSA-Mandela Children\'s Hospital enabled,2
+387,QID712,"Media Advisory: Showcases Secure, Fast &amp;Scalable Sdn And Lte enabled Mobile Infrastructure",0
+388,QID713,"Media Advisory: Showcases Secure, Fast &amp;Scalable Sdn And Lte enabled Mobile Infrastructure",1
+389,QID714,"Media Advisory: Showcases Secure, Fast &amp;Scalable Sdn And Lte enabled Mobile Infrastructure",2
+390,QID717,Alex Grossman To Give Keynote Address On True Cloud enabled Workflow At Creative Storage Conference,0
+391,QID718,Alex Grossman To Give Keynote Address On True Cloud enabled Workflow At Creative Storage Conference,1
+392,QID719,Alex Grossman To Give Keynote Address On True Cloud enabled Workflow At Creative Storage Conference,2
+393,QID722,COMPUTER ASSOCIATES\xc2\xa0<br/>\xc2\xa0\xc2\xa0CA-Masterpiece Internet enabled,0
+394,QID723,COMPUTER ASSOCIATES\xc2\xa0<br/>\xc2\xa0\xc2\xa0CA-Masterpiece Internet enabled,1
+395,QID724,COMPUTER ASSOCIATES\xc2\xa0<br/>\xc2\xa0\xc2\xa0CA-Masterpiece Internet enabled,2
+396,QID727,TeliaSonera International Carrier IPv6 enabled,0
+397,QID728,TeliaSonera International Carrier IPv6 enabled,1
+398,QID729,TeliaSonera International Carrier IPv6 enabled,2
+399,QID732,OX2 sells 42 MW wind farm to IKEA in Finland,0
+400,QID733,OX2 sells 42 MW wind farm to IKEA in Finland,1
+401,QID734,OX2 sells 42 MW wind farm to IKEA in Finland,2
+402,QID737,Ralph Riber leaving as IES's CEO,0
+403,QID738,Ralph Riber leaving as IES's CEO,1
+404,QID739,Ralph Riber leaving as IES's CEO,2
+405,QID742,New Report Available United States DisplayPort enabled Equipment Industry,0
+406,QID743,New Report Available United States DisplayPort enabled Equipment Industry,1
+407,QID744,New Report Available United States DisplayPort enabled Equipment Industry,2
+408,QID747,Introduces Industry\'s First Openflow enabled Sdn Solution For Microsoft Lync,0
+409,QID748,Introduces Industry\'s First Openflow enabled Sdn Solution For Microsoft Lync,1
+410,QID749,Introduces Industry\'s First Openflow enabled Sdn Solution For Microsoft Lync,2
+411,QID752,Diamyd Medical's Phase II study in cancer pain fully recruited,0
+412,QID753,Diamyd Medical's Phase II study in cancer pain fully recruited,1
+413,QID754,Diamyd Medical's Phase II study in cancer pain fully recruited,2
+414,QID757,Kungsleden sells a property for SEK 385 m,0
+415,QID758,Kungsleden sells a property for SEK 385 m,1
+416,QID759,Kungsleden sells a property for SEK 385 m,2
+417,QID762,Paulig is the first major company in Finland to be awarded the new occupational safety certificate,0
+418,QID763,Paulig is the first major company in Finland to be awarded the new occupational safety certificate,1
+419,QID764,Paulig is the first major company in Finland to be awarded the new occupational safety certificate,2
+420,QID767,Borr Drilling Limited (BDRILL) - Notice of Special General Meeting of Shareholders,0
+421,QID768,Borr Drilling Limited (BDRILL) - Notice of Special General Meeting of Shareholders,1
+422,QID769,Borr Drilling Limited (BDRILL) - Notice of Special General Meeting of Shareholders,2
+423,QID772,Interim report 1 January - 31 March 2013: Higher net interest and continued low loan losses,0
+424,QID773,Interim report 1 January - 31 March 2013: Higher net interest and continued low loan losses,1
+425,QID774,Interim report 1 January - 31 March 2013: Higher net interest and continued low loan losses,2
+426,QID777,Catholic Health System Relies On Juniper NetworksTo Deliver Secure Network enabled Patient Care,0
+427,QID778,Catholic Health System Relies On Juniper NetworksTo Deliver Secure Network enabled Patient Care,1
+428,QID779,Catholic Health System Relies On Juniper NetworksTo Deliver Secure Network enabled Patient Care,2
+429,QID782,Bulletin from Elekta's Annual General Meeting 2016,0
+430,QID783,Bulletin from Elekta's Annual General Meeting 2016,1
+431,QID784,Bulletin from Elekta's Annual General Meeting 2016,2
+432,QID787,"Interim Report,1 January - 30 June 2017",0
+433,QID788,"Interim Report,1 January - 30 June 2017",1
+434,QID789,"Interim Report,1 January - 30 June 2017",2
+435,QID792,Presentation of the 3rd quarter results 2018,0
+436,QID793,Presentation of the 3rd quarter results 2018,1
+437,QID794,Presentation of the 3rd quarter results 2018,2
+438,QID797,"Skanska signs major lease at 121 Seaport in Boston, USA",0
+439,QID798,"Skanska signs major lease at 121 Seaport in Boston, USA",1
+440,QID799,"Skanska signs major lease at 121 Seaport in Boston, USA",2
+441,QID802,TELUS Mobility Launches Bluetooth enabled BlackBerry Handheld,0
+442,QID803,TELUS Mobility Launches Bluetooth enabled BlackBerry Handheld,1
+443,QID804,TELUS Mobility Launches Bluetooth enabled BlackBerry Handheld,2
+444,QID807,Year-End Report for Duni AB (publ) 1 January - 31 December 2013,0
+445,QID808,Year-End Report for Duni AB (publ) 1 January - 31 December 2013,1
+446,QID809,Year-End Report for Duni AB (publ) 1 January - 31 December 2013,2
+447,QID812,DDM Treasury Sweden AB: Interim report January-June 2016,0
+448,QID813,DDM Treasury Sweden AB: Interim report January-June 2016,1
+449,QID814,DDM Treasury Sweden AB: Interim report January-June 2016,2
+450,QID817,Introduces New Mobile Security Integration For Samsung Knox enabled Devices,0
+451,QID818,Introduces New Mobile Security Integration For Samsung Knox enabled Devices,1
+452,QID819,Introduces New Mobile Security Integration For Samsung Knox enabled Devices,2
+453,QID822,ABB uncovers criminal activity in South Korean subsidiary,0
+454,QID823,ABB uncovers criminal activity in South Korean subsidiary,1
+455,QID824,ABB uncovers criminal activity in South Korean subsidiary,2
+456,QID827,Yonsei University Expands Its Campus Network With Juniper Networks To Support A Cloud enabled Enterprise,0
+457,QID828,Yonsei University Expands Its Campus Network With Juniper Networks To Support A Cloud enabled Enterprise,1
+458,QID829,Yonsei University Expands Its Campus Network With Juniper Networks To Support A Cloud enabled Enterprise,2
+459,QID832,Panasonic Partner To Bring Gametree(tm) Tv Content To Viera Connect(tm) enabled Devices,0
+460,QID833,Panasonic Partner To Bring Gametree(tm) Tv Content To Viera Connect(tm) enabled Devices,1
+461,QID834,Panasonic Partner To Bring Gametree(tm) Tv Content To Viera Connect(tm) enabled Devices,2
+462,QID837,DiaGenic continues efforts to find a financial solution,0
+463,QID838,DiaGenic continues efforts to find a financial solution,1
+464,QID839,DiaGenic continues efforts to find a financial solution,2
+465,QID842,Niclas Mårtensson assumes the position of CEO at Stena Line,0
+466,QID843,Niclas Mårtensson assumes the position of CEO at Stena Line,1
+467,QID844,Niclas Mårtensson assumes the position of CEO at Stena Line,2
+468,QID847,NextGenTel signs agreement to acquire Kvantel and Kvantel Voice,0
+469,QID848,NextGenTel signs agreement to acquire Kvantel and Kvantel Voice,1
+470,QID849,NextGenTel signs agreement to acquire Kvantel and Kvantel Voice,2
+471,QID852,Initiates Shipments Of Internet enabled Tablets From New Indian Assembly Facility,0
+472,QID853,Initiates Shipments Of Internet enabled Tablets From New Indian Assembly Facility,1
+473,QID854,Initiates Shipments Of Internet enabled Tablets From New Indian Assembly Facility,2
+474,QID857,Borr Drilling Limited (BDRILL) - Notice of Special General Meeting of Shareholders,0
+475,QID858,Borr Drilling Limited (BDRILL) - Notice of Special General Meeting of Shareholders,1
+476,QID859,Borr Drilling Limited (BDRILL) - Notice of Special General Meeting of Shareholders,2
+477,QID862,Beijer Ref acquires refrigeration wholesaler in Norway,0
+478,QID863,Beijer Ref acquires refrigeration wholesaler in Norway,1
+479,QID864,Beijer Ref acquires refrigeration wholesaler in Norway,2
+480,QID867,Rackspace Positioned In The Leaders Quadrant Of Gartner\'s Magic Quadrant For Cloud enabled Managed Hosting In Both North America And Europe,0
+481,QID868,Rackspace Positioned In The Leaders Quadrant Of Gartner\'s Magic Quadrant For Cloud enabled Managed Hosting In Both North America And Europe,1
+482,QID869,Rackspace Positioned In The Leaders Quadrant Of Gartner\'s Magic Quadrant For Cloud enabled Managed Hosting In Both North America And Europe,2
+483,QID872,"Cision AB (publ) - Interim report January-March 2012, April 24, 2012",0
+484,QID873,"Cision AB (publ) - Interim report January-March 2012, April 24, 2012",1
+485,QID874,"Cision AB (publ) - Interim report January-March 2012, April 24, 2012",2
+486,QID877,Whitby Abilities Centre Provides Community New Levels Of Accessibility With Cisco enabled Kiosk,0
+487,QID878,Whitby Abilities Centre Provides Community New Levels Of Accessibility With Cisco enabled Kiosk,1
+488,QID879,Whitby Abilities Centre Provides Community New Levels Of Accessibility With Cisco enabled Kiosk,2
+489,QID882,Interim report January - March 2013,0
+490,QID883,Interim report January - March 2013,1
+491,QID884,Interim report January - March 2013,2
+492,QID887,Notice of Annual General Meeting in OrganoClick AB (publ),0
+493,QID888,Notice of Annual General Meeting in OrganoClick AB (publ),1
+494,QID889,Notice of Annual General Meeting in OrganoClick AB (publ),2
+495,QID892,Wihlborgs signs leases for Baltzar City in Malmö,0
+496,QID893,Wihlborgs signs leases for Baltzar City in Malmö,1
+497,QID894,Wihlborgs signs leases for Baltzar City in Malmö,2
+498,QID897,Test Press Release - 17th July,0
+499,QID898,Test Press Release - 17th July,1
+500,QID899,Test Press Release - 17th July,2
+501,QID902,H Intressenter controls more than 96 percent of the shares in Höganäs. The final offer price is consequently SEK 337.50 per share,0
+502,QID903,H Intressenter controls more than 96 percent of the shares in Höganäs. The final offer price is consequently SEK 337.50 per share,1
+503,QID904,H Intressenter controls more than 96 percent of the shares in Höganäs. The final offer price is consequently SEK 337.50 per share,2
+504,QID907,"Media Advisory: Showcases Secure, Fast &amp;Scalable Sdn And Lte enabled Mobile Infrastructure",0
+505,QID908,"Media Advisory: Showcases Secure, Fast &amp;Scalable Sdn And Lte enabled Mobile Infrastructure",1
+506,QID909,"Media Advisory: Showcases Secure, Fast &amp;Scalable Sdn And Lte enabled Mobile Infrastructure",2
+507,QID912,"Shoppable, Digimarc And Shopadvisor enabled Print Magazines Delight Holiday Shoppers",0
+508,QID913,"Shoppable, Digimarc And Shopadvisor enabled Print Magazines Delight Holiday Shoppers",1
+509,QID914,"Shoppable, Digimarc And Shopadvisor enabled Print Magazines Delight Holiday Shoppers",2
+510,QID917,Hansa Medical publishes the Annual Report for 2015,0
+511,QID918,Hansa Medical publishes the Annual Report for 2015,1
+512,QID919,Hansa Medical publishes the Annual Report for 2015,2
+513,QID922,Annual General Meeting 2016,0
+514,QID923,Annual General Meeting 2016,1
+515,QID924,Annual General Meeting 2016,2
+516,QID927,At Crucible Store: A Shopping Experience unlike Anyone Else,0
+517,QID928,At Crucible Store: A Shopping Experience unlike Anyone Else,1
+518,QID929,At Crucible Store: A Shopping Experience unlike Anyone Else,2
+519,QID932,EQT Mid Market Europe invests in Open Systems AG,0
+520,QID933,EQT Mid Market Europe invests in Open Systems AG,1
+521,QID934,EQT Mid Market Europe invests in Open Systems AG,2
+522,QID937,Annual Report 2015,0
+523,QID938,Annual Report 2015,1
+524,QID939,Annual Report 2015,2
+525,QID942,Previously announced Everbeauty acquisition now closed,0
+526,QID943,Previously announced Everbeauty acquisition now closed,1
+527,QID944,Previously announced Everbeauty acquisition now closed,2
+528,QID947,Annual Review 2017,0
+529,QID948,Annual Review 2017,1
+530,QID949,Annual Review 2017,2
+531,QID952,"Reinvents Data Backup With Predictive, Social enabled Data Protection",0
+532,QID953,"Reinvents Data Backup With Predictive, Social enabled Data Protection",1
+533,QID954,"Reinvents Data Backup With Predictive, Social enabled Data Protection",2
+534,QID957,"JM's Board of Directors proposes convertible debenture and warrant programmes, as well as a decrease in share capital",0
+535,QID958,"JM's Board of Directors proposes convertible debenture and warrant programmes, as well as a decrease in share capital",1
+536,QID959,"JM's Board of Directors proposes convertible debenture and warrant programmes, as well as a decrease in share capital",2
+537,QID962,Catholic Health System Relies On Juniper NetworksTo Deliver Secure Network enabled Patient Care,0
+538,QID963,Catholic Health System Relies On Juniper NetworksTo Deliver Secure Network enabled Patient Care,1
+539,QID964,Catholic Health System Relies On Juniper NetworksTo Deliver Secure Network enabled Patient Care,2
+540,QID967,Eirik Lie appointed President of Kongsberg Defence Systems,0
+541,QID968,Eirik Lie appointed President of Kongsberg Defence Systems,1
+542,QID969,Eirik Lie appointed President of Kongsberg Defence Systems,2
+543,QID972,Estee Lauder And Google Collaborate On Voice enabled Beauty Experiences,0
+544,QID973,Estee Lauder And Google Collaborate On Voice enabled Beauty Experiences,1
+545,QID974,Estee Lauder And Google Collaborate On Voice enabled Beauty Experiences,2
