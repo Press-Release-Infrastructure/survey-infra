@@ -19,7 +19,8 @@ highlight_mode = False
 config = configparser.ConfigParser()
 config.read("qualtrics_survey_controls.txt")
 
-all_titles = list(pd.read_csv(config["settings"]["all_titles_filename"], encoding = 'utf8')["Headline"].unique())
+all_titles_df = pd.read_csv(config["settings"]["all_titles_filename"], encoding = 'utf8')
+all_titles = list(all_titles_df["Headline"].unique())
 
 num_headlines = int(config["settings"]["num_headlines"]) # unique titles to be classified
 num_students = int(config["settings"]["num_students"]) # number of people taking this survey version
@@ -38,6 +39,7 @@ attention_thresh_te = float(config["settings"]["attention_thresh_te"])
 real_qid_lst = []
 real_headline_lst = []
 real_qtype_lst = []
+real_article_id_lst = []
 
 training_mc_weight = training_thresh_mc / (training_thresh_mc + 2 * training_thresh_te)
 training_te_weight = training_thresh_te / (training_thresh_mc + 2 * training_thresh_te)
@@ -59,6 +61,7 @@ q_desc_name = "{}/{}".format(outputs_root, config["settings"]["q_desc_name"])
 eos_redirect_url = config["settings"]["eos_redirect_url"]
 
 training_flow_headlines_df = pd.read_csv(config["settings"]["training_flow_headlines_filename"], encoding = 'utf8')
+training_test_headlines_df = pd.read_csv(config["settings"]["training_test_headlines_filename"], encoding = 'utf8')
 
 titles = np.array(all_titles)
 
@@ -732,6 +735,92 @@ def add_cond_display(student_qid, sids):
 		conj = "Or"
 	return q_cond_display
 
+def add_cond_display_training(qid1, qid2, qid3, training_test_ans, correct = 1):
+	acq_status, c1, c2 = training_test_ans
+	print(qid1, qid2, qid3)
+	acq_choices = ["Acquisition", "Merger", "Neither / Not sure / Unclear"]
+
+	q_cond_display = {
+		"Type": "BooleanExpression",
+		"inPage": False
+	}
+
+	q_cond_display["0"] = {"Type": "If"}
+	conj = "If"
+	others = list(set(range(1, 4)) - set([acq_status + 1]))
+	if correct == 1:
+		q_cond_display["0"] = {
+			"0": {
+              "LogicType": "Question",
+              "QuestionID": qid1,
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://{}/SelectableChoice/{}".format(qid1, acq_status + 1),
+              "Operator": "Selected",
+              "QuestionIDFromLocator": qid1,
+              "LeftOperand": "q://{}/SelectableChoice/{}".format(qid1, acq_status + 1),
+              "Type": "Expression",
+              "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Do you think that this headline refers to an acquisition or merger?</span> <span class=\"LeftOpDesc\">{}</span> <span class=\"OpDesc\">Is Selected</span> ".format(acq_choices[acq_status])
+            },
+            "1": {
+              "LogicType": "Question",
+              "QuestionID": qid2,
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://{}/ChoiceTextEntryValue".format(qid2),
+              "Operator": "EqualTo",
+              "QuestionIDFromLocator": qid2,
+              "LeftOperand": "q://{}/ChoiceTextEntryValue".format(qid2),
+              "RightOperand": c1,
+              "Type": "Expression",
+              "Description": "<span class=\"ConjDesc\">And</span> <span class=\"QuestionDesc\">ACQUIRER (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):</span> <span class=\"LeftOpDesc\">Text Response</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> {} </span>".format(c1),
+              "Conjuction": "And"
+            },
+            "2": {
+              "LogicType": "Question",
+              "QuestionID": qid3,
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://{}/ChoiceTextEntryValue".format(qid3),
+              "Operator": "EqualTo",
+              "QuestionIDFromLocator": qid3,
+              "LeftOperand": "q://{}/ChoiceTextEntryValue".format(qid3),
+              "RightOperand": c2,
+              "Type": "Expression",
+              "Description": "<span class=\"ConjDesc\">And</span> <span class=\"QuestionDesc\">ACQUIRED (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):</span> <span class=\"LeftOpDesc\">Text Response</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> {} </span>".format(c2),
+              "Conjuction": "And"
+            },
+            "Type": "If"
+          }
+	elif correct == 2:
+		q_cond_display["0"] = {
+			"0": {
+              "LogicType": "Question",
+              "QuestionID": qid1,
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://{}/SelectableChoice/{}".format(qid1, others[0]),
+              "Operator": "Selected",
+              "QuestionIDFromLocator": qid1,
+              "LeftOperand": "q://{}/SelectableChoice/{}".format(qid1, others[0]),
+              "Type": "Expression",
+              "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Do you think that this headline refers to an acquisition or merger?</span> <span class=\"LeftOpDesc\">{}</span> <span class=\"OpDesc\">Is Selected</span> ".format(acq_choices[acq_status])
+            },
+            "Type": "If"
+		}
+	else:
+		q_cond_display["0"] = {
+			"0": {
+              "LogicType": "Question",
+              "QuestionID": qid1,
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://{}/SelectableChoice/{}".format(qid1, others[1]),
+              "Operator": "Selected",
+              "QuestionIDFromLocator": qid1,
+              "LeftOperand": "q://{}/SelectableChoice/{}".format(qid1, others[1]),
+              "Type": "Expression",
+              "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Do you think that this headline refers to an acquisition or merger?</span> <span class=\"LeftOpDesc\">{}</span> <span class=\"OpDesc\">Is Selected</span> ".format(acq_choices[acq_status])
+            },
+            "Type": "If"
+          }
+	return q_cond_display
+
 eos_payload_blocks = []
 
 def create_end_of_survey_logic(fl_id, eos_block_id, segment = 0):
@@ -800,6 +889,15 @@ def create_branch_logic(branch_logic_template, fl_id, eos_block_id, thresh_mc, t
 	branch_logic_template_copy["BranchLogic"]["0"]["0"]["Description"] = "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">Score</span> <span class=\"OpDesc\">Is Less Than</span> <span class=\"RightOpDesc\"> {} </span>".format(thresh_mc + thresh_te)
 	return branch_logic_template_copy
 
+# def create_branch_logic_training(branch_logic_template, fl_id, total_questions_done):
+	# branch_logic_template_copy = copy.deepcopy(branch_logic_template)
+	# branch_logic_template_copy["FlowID"] = "FL_{}".format(fl_id)
+
+	# branch_logic_template_copy["Flow"] = [set_end_id_copy, curr_end_survey_display, end_survey_copy]
+	# branch_logic_template_copy["BranchLogic"]["0"]["0"]["RightOperand"] = str(thresh_mc + thresh_te)
+	# branch_logic_template_copy["BranchLogic"]["0"]["0"]["Description"] = "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">Score</span> <span class=\"OpDesc\">Is Less Than</span> <span class=\"RightOpDesc\"> {} </span>".format(thresh_mc + thresh_te)
+	# return branch_logic_template_copy
+
 def add_score(elem, weight = 1, q_type = "MC", train_ans = -1, merger = False):
 	if train_ans != -1:
 		if q_type == "MC":
@@ -851,6 +949,12 @@ def add_score(elem, weight = 1, q_type = "MC", train_ans = -1, merger = False):
 				}]
 
 def create_question(curr_title, curr, disp_settings = [], train_ans_lst = [], training = False):
+	article_id_matches = list(all_titles_df.loc[all_titles_df["Headline"] == curr_title]["Article ID"])
+	if len(article_id_matches):
+		curr_article_id = article_id_matches[0]
+	else:
+		curr_article_id = ""
+	
 	qid = "QID{}".format(curr)
 
 	if len(train_ans_lst):
@@ -883,13 +987,16 @@ def create_question(curr_title, curr, disp_settings = [], train_ans_lst = [], tr
 		}
 	)
 
+	curr_subs = []
 	for subpart in range(num_subparts):
 		curr_sub = (curr - 1) * num_subparts + subpart + 1
 		qid = "QID{}".format(curr_sub)
+		curr_subs.append(qid)
 
 		if subpart in [1, 2, 3]:
 			real_qid_lst.append(qid)
 			real_headline_lst.append(curr_title)
+			real_article_id_lst.append(curr_article_id)
 
 		block_elements.append({
 			"Type": "Question",
@@ -1107,6 +1214,7 @@ def create_question(curr_title, curr, disp_settings = [], train_ans_lst = [], tr
 	block_elements.append({
 		"Type": "Page Break"
 	})
+	return curr_subs
 
 curr_offset = curr
 total_questions_done = 0
@@ -1116,8 +1224,157 @@ for t in list(training_title_to_student.keys()):
 	curr += 1
 	total_questions_done += 1
 
-# set score embedded data
+training_test_headlines = list(training_test_headlines_df["Title"])
+training_test_acq_status = list(training_test_headlines_df["Acq_Status"])
+training_test_c1 = list(training_test_headlines_df["Company 1"])
+training_test_c2 = list(training_test_headlines_df["Company 2"])
+print(training_test_headlines, training_test_acq_status, training_test_c1, training_test_c2)
+
 set_score_id = -200
+
+def display_conditional_training(qid_q1, qid_q2, qid_q3, qid_curr, curr, text1, text2, curr_training_test_ans):
+	qid1 = "QID{}".format(qid_curr)
+	qid2 = "QID{}".format(qid_curr + 1)
+	qid3 = "QID{}".format(qid_curr + 2)
+	print("QIDs", qid1, qid2, qid3)
+
+	survey_elements.append({
+        "SurveyID": "{}".format(survey_id),
+        "Element": "SQ",
+        "PrimaryAttribute": qid1,
+        "SecondaryAttribute": text1,
+        "TertiaryAttribute": None,
+        "Payload": {
+        "QuestionText": text1,
+        "QuestionID": qid1,
+        "QuestionType": "DB",
+        "Selector": "TB",
+        "QuestionDescription": text1,
+        "Validation": {
+        "Settings": {
+            "Type": "None"
+        }
+        },
+        "Language": [],
+        "DataExportTag": qid1,
+		"DisplayLogic": add_cond_display_training(qid_q1, qid_q2, qid_q3, curr_training_test_ans, correct = 1)
+        }
+    })	
+
+	survey_elements.append({
+        "SurveyID": "{}".format(survey_id),
+        "Element": "SQ",
+        "PrimaryAttribute": qid2,
+        "SecondaryAttribute": text2,
+        "TertiaryAttribute": None,
+        "Payload": {
+        "QuestionText": text2,
+        "QuestionID": qid2,
+        "QuestionType": "DB",
+        "Selector": "TB",
+        "QuestionDescription": text2,
+        "Validation": {
+        "Settings": {
+            "Type": "None"
+        }
+        },
+        "Language": [],
+        "DataExportTag": qid2,
+		"DisplayLogic": add_cond_display_training(qid_q1, qid_q2, qid_q3, curr_training_test_ans, correct = 2)
+        }
+    })
+
+	survey_elements.append({
+        "SurveyID": "{}".format(survey_id),
+        "Element": "SQ",
+        "PrimaryAttribute": qid3,
+        "SecondaryAttribute": text2,
+        "TertiaryAttribute": None,
+        "Payload": {
+        "QuestionText": text2,
+        "QuestionID": qid3,
+        "QuestionType": "DB",
+        "Selector": "TB",
+        "QuestionDescription": text2,
+        "Validation": {
+        "Settings": {
+            "Type": "None"
+        }
+        },
+        "Language": [],
+        "DataExportTag": qid3,
+		"DisplayLogic": add_cond_display_training(qid_q1, qid_q2, qid_q3, curr_training_test_ans, correct = 3)
+        }
+    })
+
+	survey_info["SurveyElements"][0]["Payload"].append({
+        "Type": "Standard",
+        "SubType": "",
+        "Description": "Block {}".format(curr),
+        "ID": "BL_{}".format(curr),
+        "BlockElements": [],
+        "Options": {
+            "BlockLocking": "false",
+            "RandomizeQuestions": "false",
+            "BlockVisibility": "Collapsed",
+        }
+    })
+
+	block_elements = survey_info["SurveyElements"][0]["Payload"][curr + 1]["BlockElements"]
+	survey_info["SurveyElements"][1]["Payload"]["Flow"].append(
+        {
+            "ID": "BL_{}".format(curr),
+            "Type": "Block",
+            "FlowID": "FL_{}".format(curr)
+        }
+    )
+
+	block_elements.append({
+        "Type": "Question",
+        "QuestionID": qid1
+        })
+
+	block_elements.append({
+        "Type": "Question",
+        "QuestionID": qid2
+        })
+	
+	block_elements.append({
+        "Type": "Question",
+        "QuestionID": qid3
+        })
+
+	block_elements.append({
+        "Type": "Page Break",
+        })
+
+qid_curr = curr
+for i in range(len(training_test_headlines)):
+	curr_title = training_test_headlines[i]
+	curr_training_test_ans = [int(training_test_acq_status[i]), "" if pd.isna(training_test_c1[i]) else training_test_c1[i], "" if pd.isna(training_test_c2[i]) else training_test_c2[i]]
+	print(curr_title, curr, list(range(num_students)), curr_training_test_ans)
+	
+	_, qid1, qid2, qid3, _ = create_question(curr_title, curr, list(range(num_students)), curr_training_test_ans, training = True)
+	print(qid1, qid2, qid3)
+	curr += 1
+
+	# # set score embedded data
+	# set_score_copy = copy.deepcopy(set_score)
+	# set_score_copy["FlowID"] = "FL_{}".format(set_score_id)
+	# # set_score_copy["EmbeddedData"][0]["Value"] = "$e{${gr://SC_0/Score} - " + str(i) + "}"
+	# set_score_copy["EmbeddedData"][0]["Value"] = "$e{${gr://SC_0/Score} - ${gr://SC_0/Score}}"
+	# flow_elements.append(set_score_copy)
+	# set_score_id -= 1
+	
+	# display logic based on whether or not answers match
+	text1 = "Correct"
+	text2 = "Incorrect"
+	display_conditional_training(qid1, qid2, qid3, qid_curr, curr, text1, text2, curr_training_test_ans)
+	curr += 1
+	qid_curr += 3
+	total_questions_done += 1
+
+# set score embedded data
 set_score_copy = copy.deepcopy(set_score)
 set_score_copy["FlowID"] = "FL_{}".format(set_score_id)
 flow_elements.append(set_score_copy)
@@ -1239,6 +1496,7 @@ assert(len(displayed.intersection(set(titles_to_classify))) == num_headlines)
 q_desc_info = pd.DataFrame({
 	"QID": real_qid_lst,
 	"Headline": real_headline_lst,
-	"QType": real_qtype_lst
+	"QType": real_qtype_lst,
+	"Article ID": real_article_id_lst,
 })
 q_desc_info.to_csv(q_desc_name)

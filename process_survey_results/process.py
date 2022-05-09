@@ -39,14 +39,16 @@ for i, response in filtered_results.iterrows():
     for h, qids in headline_to_qid_mapper.items():
         headline_responses = list(response[qids])
         if not pd.isna(headline_responses[0]):
-            curr_response_class, curr_company_1, curr_company_2 = headline_responses
-            
-            prolific_id.append(curr_prolific_id)
-            headline.append(h)
-            article_id.append('stub_article_id')
-            response_class.append(curr_response_class)
-            company_1.append(curr_company_1)
-            company_2.append(curr_company_2)
+            for i in range(0, len(headline_responses), 3):
+                if not pd.isna(headline_responses[i]):
+                    curr_response_class, curr_company_1, curr_company_2 = headline_responses[i: i+3]
+
+                    prolific_id.append(curr_prolific_id)
+                    headline.append(h)
+                    article_id.append('stub_article_id')
+                    response_class.append(curr_response_class)
+                    company_1.append(curr_company_1)
+                    company_2.append(curr_company_2)
 
 survey_update_data = pd.DataFrame({
     'prolific_id': prolific_id,
@@ -56,5 +58,6 @@ survey_update_data = pd.DataFrame({
     'company_1': company_1,
     'company_2': company_2
 })
+survey_update_data.sort_values('headline', inplace = True)
 
 survey_update_data.to_csv(clean_survey_results)

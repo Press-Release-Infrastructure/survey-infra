@@ -1,4 +1,4 @@
 [settings]
-raw_survey_results = ../raw_survey_results/prolific_trial.csv
+raw_survey_results = ../raw_survey_results/prolific_round1_0424.csv
 q_desc = ../survey_generator_output/prolific_trial/prolific_trial_first_q_desc.csv
-clean_survey_results = ../clean_survey_results/prolific_trial.csv
+clean_survey_results = ../clean_survey_results/prolific_round1_0424.csv

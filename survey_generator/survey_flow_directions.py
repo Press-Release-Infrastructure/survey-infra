@@ -140,3 +140,11 @@ Once the task is complete, we will assign you a code for you to enter. IT IS IMP
 <br><br>
 Let’s get started!
 """
+
+correct_training_test = """
+Correct answer placeholder
+"""
+
+incorrect_training_test = """
+Incorrect answer placeholder
+"""

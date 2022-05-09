@@ -1,5 +1,5 @@
 [settings]
-all_titles_filename = ../headlines_input/headlines.csv
+all_titles_filename = ../headlines_input/headlines_with_article_id.csv
 
 num_headlines = 100
 num_students = 4
@@ -17,14 +17,14 @@ attention_thresh_te = 0.5
 follow_up_flag = 0
 
 training_flow_headlines_filename = ../headlines_input/selected_training.csv
-training_headlines_filename = ../survey_data/selected_training_test.csv
+training_test_headlines_filename = ../headlines_input/selected_training_test.csv
 att_headlines_filename = ../headlines_input/selected_att.csv
 
 survey_name = Prolific Trial (First Survey)
 
 outputs_root = ../survey_generator_output/prolific_trial/
-assignments_name = prolific_0424_assignments.json
-q_desc_name = prolific_0424_q_desc.csv
-qsf_name = prolific_0424.qsf
+assignments_name = prolific_0509_assignments.json
+q_desc_name = prolific_0509_q_desc.csv
+qsf_name = prolific_0509.qsf
 
 eos_redirect_url = https://app.prolific.co/submissions/complete?cc=4234DFB7
