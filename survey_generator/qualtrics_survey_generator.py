@@ -7,6 +7,7 @@ import copy
 import configparser
 import os
 from survey_flow_directions import pg1, pg1_alt, pg2, pg3, pg4, pg5, pg6, pg7, pg8, pg9, pg10, pg11, pg12, pg13, pg14
+from survey_flow_directions import tt1, tt2, tt3, tt4, tt5, tt6, tt7
 
 seed = 0
 np.random.seed(seed)
@@ -66,6 +67,7 @@ training_flow_headlines_df = pd.read_csv(config["settings"]["training_flow_headl
 training_test_headlines_df = pd.read_csv(config["settings"]["training_test_headlines_filename"], encoding = 'utf8')
 
 titles = np.array(all_titles)
+tt = [tt1, tt2, tt3, tt4, tt5, tt6, tt7]
 
 # determine indices for headlines assigned to each student
 titles_per_student = math.ceil(num_headlines / ((1 - overlap) * num_students))
@@ -1189,10 +1191,13 @@ print(training_test_headlines, training_test_acq_status, training_test_c1, train
 
 set_score_id = -200
 
-def display_conditional_training(qid_q1, qid_q2, qid_curr, curr, text1, text2, curr_training_test_ans):
+def display_conditional_training(qid_q1, qid_q2, qid_curr, curr, t1, t2, curr_training_test_ans, tt_ind):
 	qid1 = "QID{}".format(qid_curr)
 	qid2 = "QID{}".format(qid_curr + 1)
 	print("QIDs", qid1, qid2)
+
+	text1 = tt[tt_ind].format(t1)
+	text2 = tt[tt_ind].format(t2)
 
 	survey_elements.append({
         "SurveyID": "{}".format(survey_id),
@@ -1301,9 +1306,9 @@ for i in range(len(training_test_headlines)):
 	# set_score_id -= 1
 
 	# display logic based on whether score2 - score = 1
-	text1 = "Correct"
-	text2 = "Incorrect"
-	display_conditional_training(qid1, qid2, qid_curr, curr, text1, text2, curr_training_test_ans)
+	text1 = "Correct!"
+	text2 = "Not correct."
+	display_conditional_training(qid1, qid2, qid_curr, curr, text1, text2, curr_training_test_ans, i)
 	curr += 1
 	qid_curr += 2
 	total_questions_done += 1

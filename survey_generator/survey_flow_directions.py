@@ -40,7 +40,7 @@ Sometimes, you will <b>not be sure</b> about the answers.
 pg4 = """
 Your task is to review a maximum of %s headlines, which will take about %s minutes.
 <br><br>
-First, we will provide training. We will show you examples of headlines and how they should be classified.
+First, we will provide training. We will show you examples of headlines and how they should be classified. This will be followed by a short quiz to test your headline classification skills and give you some feedback to improve your accuracy.
 <br><br>
 Then, you will start the work of reading headlines and recording acquisitions. 
 <br><br>
@@ -141,10 +141,41 @@ Once the task is complete, we will assign you a code for you to enter. IT IS IMP
 Let’s get started!
 """
 
-correct_training_test = """
-Correct answer placeholder
+# TRAINING TEST DESCRIPTIONS
+tt1 = """
+{} This headline refers to a <b>merger</b> because Aker BP is not acquiring Lundite Energy as a subsidiary or vice versa. 
+<br><br>
+The two companies referred to in the headline (as the “ACQUIRER” and “ACQUIRED” fields in the previous question) should be “Aker BP” and “Lundite Energy,” in no particular order.
+<br><br>
+What company you put in each field only matters if the headline refers to a strict acquisition.
 """
 
-incorrect_training_test = """
-Incorrect answer placeholder
+tt2 = """
+{} The headline is about an <b>acquisition</b> because Cultec Inc. is being acquired by Advanced Drainage Systems. The term “acquired by” means the acquired company appears before the acquiring one in the headline text .
+<br><br>
+“Advanced Drainage Systems” should be the company entered into the first “ACQUIRER” field while “Cultec Inc.” should be entered into the “ACQUIRED” field for the classification to be fully correct.
+"""
+
+tt3 = """
+{} Even though the headline includes the word “merger,” it is not referring to the joining of two companies. This headline is <b>neither / not sure / unclear</b> because it is neither a merger nor an acquisition of two companies.
+
+Both the “ACQUIRER” and “ACQUIRED” fields may be left empty in this case.
+"""
+
+tt4 = """
+{} This headline is an <b>acquisition</b> – in this case, the “ACQUIRER” is “Perrigo” while the “ACQUIRED” company is “HRA Pharma.”
+"""
+
+tt5 = """
+{} The previous headline is <b>neither / not sure / unclear</b> because it is neither a merger nor an acquisition. Even though the event mentioned in the headline may be a consequence of an acquisition or buyout, do not indicate an acquisition or merger event unless the headline explicitly mentions it.
+"""
+
+tt6 = """
+{} This headline is an <b>acquisition</b>. Even if the “ACQUIRED” company isn’t explicitly named, the “ACQUIRER” company should be named as “JetBlue.”
+
+Because the smaller airline company acquired is only described, leave the “ACQUIRED” box empty. This applies in the opposite case, when an acquirer company or one of the participants of a merger is not named.
+"""
+
+tt7 = """
+{} This headline is <b>neither / not sure / unclear</b> because the purchase of a shop refers to the buying of a physical shop / location rather than an acquisition of a specific company. Leave the “ACQUIRER” and “ACQUIRED” fields empty when selecting this option for headline type, as no acquisition or merger is occurring.
 """
