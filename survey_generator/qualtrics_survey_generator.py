@@ -1306,8 +1306,8 @@ for i in range(len(training_test_headlines)):
 	# set_score_id -= 1
 
 	# display logic based on whether score2 - score = 1
-	text1 = "Correct!"
-	text2 = "Not correct."
+	text1 = "<div style = 'font-weight: bold; color: #006400; text-align: center;'>Correct!</div><br></br>"
+	text2 = "<div style = 'font-weight: bold; color: #8B0000; text-align: center;'>Not correct.</div><br></br>"
 	display_conditional_training(qid1, qid2, qid_curr, curr, text1, text2, curr_training_test_ans, i)
 	curr += 1
 	qid_curr += 2
