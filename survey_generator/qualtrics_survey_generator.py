@@ -8,6 +8,7 @@ import configparser
 import os
 from survey_flow_directions import pg1, pg1_alt, pg2, pg3, pg4, pg5, pg6, pg7, pg8, pg9, pg10, pg11, pg12, pg13, pg14
 from survey_flow_directions import tt1, tt2, tt3, tt4, tt5, tt6, tt7
+from survey_flow_directions import transition_text
 
 seed = 0
 np.random.seed(seed)
@@ -1312,6 +1313,85 @@ for i in range(len(training_test_headlines)):
 	curr += 1
 	qid_curr += 2
 	total_questions_done += 1
+
+# create page to indicate that the training test is over
+transition_block_num = -100000000
+transition_qid = -100000000
+transition_element = {
+      "SurveyID": survey_id,
+      "Element": "SQ",
+      "PrimaryAttribute": "QID{}".format(transition_qid),
+      "SecondaryAttribute": transition_text,
+      "TertiaryAttribute": None,
+      "Payload": {
+        "QuestionText": transition_text,
+        "DefaultChoices": False,
+        "DataExportTag": "Q{}".format(transition_qid),
+        "QuestionType": "DB",
+        "Selector": "TB",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText"
+        },
+        "QuestionDescription": transition_text,
+        "ChoiceOrder": [],
+        "Validation": {
+          "Settings": {
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": [],
+        "NextChoiceId": 4,
+        "NextAnswerId": 1,
+        "QuestionID": "QID{}".format(transition_qid)
+      }
+    }
+survey_elements.append(transition_element)
+survey_info["SurveyElements"][0]["Payload"].append({
+		"Type": "Standard",
+		"SubType": "",
+		"Description": "Block {}".format(curr),
+		"ID": "BL_{}".format(curr),
+		"BlockElements": [],
+		"Options": {
+			"BlockLocking": "false",
+			"RandomizeQuestions": "false",
+			"BlockVisibility": "Collapsed",
+		}
+	})
+
+block_elements = survey_info["SurveyElements"][0]["Payload"][curr + 1]["BlockElements"]
+
+survey_info["SurveyElements"][1]["Payload"]["Flow"].append(
+	{
+		"ID": "BL_{}".format(curr),
+		"Type": "Block",
+		"FlowID": "FL_{}".format(curr)
+	}
+)
+
+block_elements.append({
+	"Type": "Question",
+	"QuestionID": "QID{}".format(transition_qid)
+	})
+curr += 1
+# block_elements.append({
+#           "Type": "Standard",
+#           "SubType": "",
+#           "Description": "Block {}".format(transition_block_num),
+#           "ID": "BL_{}".format(transition_block_num),
+#           "BlockElements": [
+#             {
+#               "Type": "Question",
+#               "QuestionID": "QID{}".format(transition_qid)
+#             }
+#           ],
+#           "Options": {
+#             "BlockLocking": "false",
+#             "RandomizeQuestions": "false",
+#             "BlockVisibility": "Expanded"
+#           }
+#         })
 
 # # set score embedded data
 # set_score_copy = copy.deepcopy(set_score)

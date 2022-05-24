@@ -23,8 +23,8 @@ att_headlines_filename = ../headlines_input/selected_att.csv
 survey_name = Prolific Trial (First Survey)
 
 outputs_root = ../survey_generator_output/prolific_trial/
-assignments_name = prolific_0517_assignments.json
-q_desc_name = prolific_0517_q_desc.csv
-qsf_name = prolific_0517.qsf
+assignments_name = prolific_0524_assignments.json
+q_desc_name = prolific_0524_q_desc.csv
+qsf_name = prolific_0524.qsf
 
 eos_redirect_url = https://app.prolific.co/submissions/complete?cc=4234DFB7

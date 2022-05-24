@@ -179,3 +179,7 @@ Because the smaller airline company acquired is only described, leave the “ACQ
 tt7 = """
 {} This headline is <b>neither / not sure / unclear</b> because the purchase of a shop refers to the buying of a physical shop / location rather than an acquisition of a specific company. Leave the “ACQUIRER” and “ACQUIRED” fields empty when selecting this option for headline type, as no acquisition or merger is occurring.
 """
+
+transition_text = """
+You have completed the training test headlines. Keep the feedback you have received in mind as you work on the target headlines to classify in the next section.
+"""
