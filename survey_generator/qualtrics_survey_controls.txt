@@ -1,5 +1,5 @@
 [settings]
-all_titles_filename = ../headlines_input/headlines_with_article_id.csv
+all_titles_filename = /Users/lilybhattacharjee/Downloads/clean_headlines_excerpt.csv
 
 num_headlines = 100
 num_students = 4

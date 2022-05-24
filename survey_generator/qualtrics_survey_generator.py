@@ -1299,13 +1299,6 @@ for i in range(len(training_test_headlines)):
 	print(qid1, qid2, qid3)
 	curr += 1
 
-	# # set score2 embedded data
-	# set_score_copy = copy.deepcopy(set_score_next)
-	# set_score_copy["FlowID"] = "FL_{}".format(set_score_id)
-	# set_score_copy["EmbeddedData"][0]["Value"] = "${gr://SC_0/Score}"
-	# flow_elements.append(set_score_copy)
-	# set_score_id -= 1
-
 	# display logic based on whether score2 - score = 1
 	text1 = "<div style = 'font-weight: bold; color: #006400; text-align: center;'>Correct!</div><br></br>"
 	text2 = "<div style = 'font-weight: bold; color: #8B0000; text-align: center;'>Not correct.</div><br></br>"
@@ -1375,29 +1368,6 @@ block_elements.append({
 	"QuestionID": "QID{}".format(transition_qid)
 	})
 curr += 1
-# block_elements.append({
-#           "Type": "Standard",
-#           "SubType": "",
-#           "Description": "Block {}".format(transition_block_num),
-#           "ID": "BL_{}".format(transition_block_num),
-#           "BlockElements": [
-#             {
-#               "Type": "Question",
-#               "QuestionID": "QID{}".format(transition_qid)
-#             }
-#           ],
-#           "Options": {
-#             "BlockLocking": "false",
-#             "RandomizeQuestions": "false",
-#             "BlockVisibility": "Expanded"
-#           }
-#         })
-
-# # set score embedded data
-# set_score_copy = copy.deepcopy(set_score)
-# set_score_copy["FlowID"] = "FL_{}".format(set_score_id)
-# flow_elements.append(set_score_copy)
-# set_score_id -= 1
 
 # add branch logic to kick respondent out of survey after training q's
 eos_block_id = -1000
@@ -1445,12 +1415,6 @@ for i in range(num_blocks):
 		else:
 			create_question(c, curr, list(range(num_students)), attention_check_answers[c])
 		curr += 1
-
-	# # set score embedded data
-	# set_score_copy = copy.deepcopy(set_score)
-	# set_score_copy["FlowID"] = "FL_{}".format(set_score_id)
-	# flow_elements.append(set_score_copy)
-	# set_score_id -= 1
 
 # create the rest of the questions for the remaining regular headlines
 remaining_headlines = []
