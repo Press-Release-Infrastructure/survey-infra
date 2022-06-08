@@ -12,7 +12,6 @@ from survey_flow_directions import transition_text
 from qualtrics_survey_utils import select_att_check_headlines, assign_regular_headlines
 from qualtrics_survey_utils import set_score_prev
 from qualtrics_survey_utils import setup_survey, create_branch_logic, create_end_of_survey_logic, display_conditional_training
-
 seed = 0
 np.random.seed(seed)
 rate = 120 # expected rate of problem solving per hour
@@ -36,9 +35,7 @@ attention_check_length = int(config["settings"]["attention_check_length"]) # num
 follow_up_flag = bool(int(config["settings"]["follow_up_flag"]))
 
 training_thresh_mc = float(config["settings"]["training_thresh_mc"])
-training_thresh_te = float(config["settings"]["training_thresh_te"])
 attention_thresh_mc = float(config["settings"]["attention_thresh_mc"])
-attention_thresh_te = float(config["settings"]["attention_thresh_te"])
 
 # set up question description file: qid | headline | classification (0) / acquirer (1) / acquired (2)
 real_qid_lst = []
@@ -46,10 +43,8 @@ real_headline_lst = []
 real_qtype_lst = []
 real_article_id_lst = []
 
-training_mc_weight = 0.5
-training_te_weight = 0.25
-attention_mc_weight = attention_thresh_mc / (attention_thresh_mc + 2 * attention_thresh_te)
-attention_te_weight = attention_thresh_te / (training_thresh_mc + 2 * training_thresh_te)
+training_mc_weight = 1
+attention_mc_weight = 1
 
 survey_name = config["settings"]["survey_name"]
 
@@ -87,6 +82,7 @@ end_survey_display_flow_id = -600
 end_survey_flow_id = -500
 set_score_flow_id = -300
 set_end_id_flow_id = -400
+prolific_qid = -10000000
 
 survey_elements, flow_elements = setup_survey(survey_info, survey_id, survey_name, num_students)
 
@@ -235,8 +231,6 @@ for d in directions:
 	curr += 1
 	image_curr -= 1
 
-num_subparts = 5
-
 title_to_student = {}
 attention_check_title_to_student = {}
 training_title_to_student = {}
@@ -251,117 +245,6 @@ for student, title_idxs in student_assignments.items():
 for a_chunk in attention_check_headlines:
 	for a in a_chunk:
 		attention_check_title_to_student[a] = list(range(num_students))
-
-def create_highlight_question(qid, mode = "acquirer"):
-	q_text = "Click and drag / press to highlight the {} company name in the headline.".format(mode.upper())
-	q = {
-      "SurveyID": qid,
-      "Element": "SQ",
-      "PrimaryAttribute": qid,
-      "SecondaryAttribute": "Click and drag / press to highlight the ACQUIRED company name in the headline.",
-      "TertiaryAttribute": None,
-      "Payload": {
-        "QuestionText": "Click and drag / press to highlight the <strong>ACQUIRED</strong> company name in the headline.",
-        "DefaultChoices": False,
-        "DataExportTag": qid,
-        "QuestionID": qid,
-        "QuestionType": "HL",
-        "Selector": "Text",
-        "DataVisibility": {
-          "Private": False,
-          "Hidden": False
-        },
-        "Configuration": {
-          "QuestionDescriptionOption": "UseText",
-          "CustomTextSize": False,
-          "AutoStopWords": False
-        },
-        "QuestionDescription": "Click and drag / press to highlight the ACQUIRED company name in the headline.",
-        "Choices": {
-          "298": {
-            "WordIndex": 0,
-            "WordLength": 7,
-            "Word": "Synergy",
-            "Display": "1: Synergy"
-          },
-          "299": {
-            "WordIndex": 8,
-            "WordLength": 4,
-            "Word": "Plus",
-            "Display": "2: Plus"
-          },
-          "300": {
-            "WordIndex": 13,
-            "WordLength": 9,
-            "Word": "Acquiring",
-            "Display": "3: Acquiring"
-          },
-          "301": {
-            "WordIndex": 23,
-            "WordLength": 7,
-            "Word": "AirData",
-            "Display": "4: AirData"
-          }
-        },
-        "DisplayLogic": {
-          "0": {
-            "0": {
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 2 </span>",
-              "LeftOperand": "respondentID",
-              "LogicType": "EmbeddedField",
-              "Operator": "EqualTo",
-              "RightOperand": "2",
-              "Type": "Expression"
-            },
-            "1": {
-              "Conjuction": "Or",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">respondentID</span> <span class=\"OpDesc\">Is Equal to</span> <span class=\"RightOpDesc\"> 3 </span>",
-              "LeftOperand": "respondentID",
-              "LogicType": "EmbeddedField",
-              "Operator": "EqualTo",
-              "RightOperand": "3",
-              "Type": "Expression"
-            },
-            "Type": "If"
-          },
-          "Type": "BooleanExpression",
-          "inPage": False
-        },
-        "ChoiceOrder": [
-          298,
-          299,
-          300,
-          301
-        ],
-        "Validation": {
-          "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
-          }
-        },
-        "GradingData": [],
-        "Language": [],
-        "NextChoiceId": 302,
-        "NextAnswerId": 4,
-        "Answers": {
-          "1": {
-            "Display": "ACQUIRED",
-            "BGColor": "#1a9641",
-            "TextColor": "#ffffff"
-          }
-        },
-        "ExcludedWords": [],
-        "WordChoiceIds": [
-          298,
-          299,
-          300,
-          301
-        ],
-        "HighlightText": "Synergy Plus Acquiring AirData",
-        "ColorScale": "RdYlGn"
-      }
-    }
-	return q
 
 def add_cond_display(student_qid, sids):
 	q_cond_display = {
@@ -438,7 +321,7 @@ def add_score(elem, weight = 1, q_type = "MC", train_ans = -1, merger = False):
 					}
 				}]
 
-def create_question(curr_title, curr, disp_settings = [], train_ans_lst = [], training = False):
+def create_question(curr_title, curr, disp_settings = [], train_ans_lst = [], training = False, default_num_subparts = 5, num_subparts = 5):
 	article_id_matches = list(all_titles_df.loc[all_titles_df["Headline"] == curr_title]["Article ID"])
 	if len(article_id_matches):
 		curr_article_id = article_id_matches[0]
@@ -449,10 +332,10 @@ def create_question(curr_title, curr, disp_settings = [], train_ans_lst = [], tr
 
 	if len(train_ans_lst):
 		train_ans, train_ans_acquirer, train_ans_acquired = train_ans_lst
-		mc_weight, te_weight = training_mc_weight, training_te_weight
+		mc_weight = training_mc_weight
 	else:
 		train_ans, train_ans_acquirer, train_ans_acquired = -1, -1, -1
-		mc_weight, te_weight = attention_mc_weight, attention_te_weight
+		mc_weight = attention_mc_weight
 
 	survey_info["SurveyElements"][0]["Payload"].append({
 		"Type": "Standard",
@@ -479,11 +362,11 @@ def create_question(curr_title, curr, disp_settings = [], train_ans_lst = [], tr
 
 	curr_subs = []
 	for subpart in range(num_subparts):
-		curr_sub = (curr - 1) * num_subparts + subpart + 1
+		curr_sub = (curr - 1) * default_num_subparts + subpart + 1
 		qid = "QID{}".format(curr_sub)
 		curr_subs.append(qid)
 
-		if subpart in [1, 2, 3]:
+		if subpart == 1:
 			real_qid_lst.append(qid)
 			real_headline_lst.append(curr_title)
 			real_article_id_lst.append(curr_article_id)
@@ -569,134 +452,7 @@ def create_question(curr_title, curr, disp_settings = [], train_ans_lst = [], tr
 			}
 
 			real_qtype_lst.append(0)
-
 			add_score(elem, mc_weight, "MC", train_ans)
-		elif subpart == 2:
-			if highlight_mode:
-				elem = create_highlight_question(qid, mode = "acquirer")
-			else:
-				elem = {
-					"SurveyID": "{}".format(survey_id),
-					"Element": "SQ",
-					"PrimaryAttribute": qid,
-					"SecondaryAttribute": "ACQUIRER (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):",
-					"TertiaryAttribute": None,
-					"Payload": {
-						"QuestionText": "ACQUIRER (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):\n\n",
-						"DefaultChoices": False,
-						"QuestionID": qid,
-						"QuestionType": "TE",
-						"Selector": "SL",
-						"Configuration": {
-							"QuestionDescriptionOption": "UseText"
-						},
-						"QuestionDescription": "ACQUIRER (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):",
-						"Validation": {
-							"Settings": {
-								"ForceResponse": "OFF",
-								"Type": "None"
-							}
-						},
-						"GradingData": [],
-						"Language": [],
-						"NextChoiceId": 4,
-						"NextAnswerId": 1,
-						"SearchSource": {
-							"AllowFreeResponse": "false"
-						},
-						"DataExportTag": qid,
-					}
-				}
-
-			real_qtype_lst.append(1)
-
-			merger = train_ans == 1
-			if merger: train_ans_arg = [train_ans_acquirer, train_ans_acquired]
-			else: train_ans_arg = train_ans_acquirer
-			add_score(elem, te_weight, "TE", train_ans_arg, merger = merger)
-		elif subpart == 3:
-			if highlight_mode:
-				elem = create_highlight_question(qid, mode = "acquired")
-			else: 
-				elem = {
-					"SurveyID": "{}".format(survey_id),
-					"Element": "SQ",
-					"PrimaryAttribute": qid,
-					"SecondaryAttribute": "ACQUIRED (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):",
-					"TertiaryAttribute": None,
-					"Payload": {
-						"QuestionText": "ACQUIRED (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):\n\n",
-						"DefaultChoices": False,
-						"QuestionID": qid,
-						"QuestionType": "TE",
-						"Selector": "SL",
-						"Configuration": {
-							"QuestionDescriptionOption": "UseText"
-						},
-						"QuestionDescription": "ACQUIRED (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):",
-						"Validation": {
-							"Settings": {
-								"ForceResponse": "OFF",
-								"Type": "None"
-							}
-						},
-						"GradingData": [],
-						"Language": [],
-						"NextChoiceId": 4,
-						"NextAnswerId": 1,
-						"SearchSource": {
-							"AllowFreeResponse": "false"
-						},
-						"DataExportTag": qid,
-					}
-				}
-
-			real_qtype_lst.append(2)
-
-			merger = train_ans == 1
-			if merger: train_ans_arg = [train_ans_acquired, train_ans_acquirer]
-			else: train_ans_arg = train_ans_acquired
-			add_score(elem, te_weight, "TE", train_ans_arg, merger = merger)
-		elif subpart == 4:
-			elem = {
-		      "SurveyID": "{}".format(survey_id),
-		      "Element": "SQ",
-		      "PrimaryAttribute": qid,
-		      "SecondaryAttribute": "Timing",
-		      "TertiaryAttribute": None,
-		      "Payload": {
-		        "QuestionText": "Timing",
-		        "DefaultChoices": False,
-		        "DataExportTag": qid,
-		        "QuestionType": "Timing",
-		        "Selector": "PageTimer",
-		        "Configuration": {
-		          "QuestionDescriptionOption": "UseText",
-		          "MinSeconds": "0",
-		          "MaxSeconds": "0"
-		        },
-		        "QuestionDescription": "Timing",
-		        "Choices": {
-		          "1": {
-		            "Display": "First Click"
-		          },
-		          "2": {
-		            "Display": "Last Click"
-		          },
-		          "3": {
-		            "Display": "Page Submit"
-		          },
-		          "4": {
-		            "Display": "Click Count"
-		          }
-		        },
-		        "GradingData": [],
-		        "Language": [],
-		        "NextChoiceId": 4,
-		        "NextAnswerId": 1,
-		        "QuestionID": qid
-		      }
-		    }
 
 		elem["Payload"]["DisplayLogic"] = add_cond_display("QID{}".format(0), disp_settings)
 		survey_elements.append(elem)
@@ -735,8 +491,7 @@ for i in range(len(training_test_headlines)):
 	flow_elements.append(set_score_copy)
 	set_score_id -= 1
 	
-	_, qid1, qid2, qid3, _ = create_question(curr_title, curr, list(range(num_students)), curr_training_test_ans, training = True)
-	print(qid1, qid2, qid3)
+	_, qid1 = create_question(curr_title, curr, list(range(num_students)), curr_training_test_ans, training = True, num_subparts = 2)
 	curr += 1
 
 	# display logic based on whether score2 - score = 1
