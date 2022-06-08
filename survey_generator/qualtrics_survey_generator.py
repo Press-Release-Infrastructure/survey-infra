@@ -10,6 +10,8 @@ from survey_flow_directions import pg1, pg1_alt, pg2, pg3, pg4, pg5, pg6, pg7, p
 from survey_flow_directions import tt1, tt2, tt3, tt4, tt5, tt6, tt7
 from survey_flow_directions import transition_text
 from qualtrics_survey_utils import select_att_check_headlines, assign_regular_headlines
+from qualtrics_survey_utils import set_score_prev
+from qualtrics_survey_utils import create_branch_logic, create_end_of_survey_logic, display_conditional_training
 
 seed = 0
 np.random.seed(seed)
@@ -81,74 +83,9 @@ student_assignments, titles_to_classify = assign_regular_headlines(titles, num_h
 
 survey_info = {}
 
-# args needed: flow id, right operand, right operand
-branch_logic_template = {
-	"Type": "Branch",
-	"FlowID": "",
-	"Description": "New Branch",
-	"BranchLogic": {
-		"0": {
-			"0": {
-				"LogicType": "EmbeddedField",
-				"LeftOperand": "Score",
-				"Operator": "LessThan",
-				"RightOperand": "",
-				"_HiddenExpression": False,
-				"Type": "Expression",
-				"Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">Score</span> <span class=\"OpDesc\">Is Less Than</span> <span class=\"RightOpDesc\"> "" </span>"
-			},
-			"Type": "If"
-		},
-		"Type": "BooleanExpression"
-	}
-}
-
 end_survey_display_flow_id = -600
-end_survey_display = {
-	"ID": "BL_{}",
-	"Type": "Block",
-	"FlowID": "FL_{}"
-}
-
 end_survey_flow_id = -500
-end_survey = {
-	"Type": "EndSurvey",
-	"FlowID": "FL_{}"
-}
-
 set_score_flow_id = -300
-set_score_prev = {
-	"Type": "EmbeddedData",
-	"FlowID": "FL_-1",
-	"EmbeddedData": [
-		{
-		"Description": "ScorePrev",
-		"Type": "Custom",
-		"Field": "ScorePrev",
-		"VariableType": "String",
-		"DataVisibility": [],
-		"AnalyzeText": False,
-		"Value": "${gr://SC_0/Score}"
-		}
-	]
-}
-
-set_score_next = {
-	"Type": "EmbeddedData",
-	"FlowID": "FL_-1",
-	"EmbeddedData": [
-		{
-		"Description": "ScoreNext",
-		"Type": "Custom",
-		"Field": "ScoreNext",
-		"VariableType": "String",
-		"DataVisibility": [],
-		"AnalyzeText": False,
-		"Value": "${gr://SC_0/Score}"
-		}
-	]
-}
-
 set_end_id_flow_id = -400
 set_end_id = {
 	"Type": "EmbeddedData",
@@ -698,107 +635,7 @@ def add_cond_display(student_qid, sids):
 		conj = "Or"
 	return q_cond_display
 
-def add_cond_display_training(qid1, qid2, training_test_ans, correct = False):
-	acq_status, c1, c2 = training_test_ans
-
-	q_cond_display = {
-		"Type": "BooleanExpression",
-		"inPage": False
-	}
-
-	if correct:
-		q_cond_display["0"] = {
-			"0": {
-              "LogicType": "EmbeddedField",
-              "LeftOperand": "ScorePrev",
-              "Operator": "LessThanOrEqual",
-              "RightOperand": "$e{gr://SC_0/Score - 1}",
-              "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">ScorePrev</span> <span class=\"OpDesc\">Is Less Than or Equal to</span> <span class=\"RightOpDesc\"> $e{${gr://SC_0/Score} - 1} </span>"
-            },
-            "Type": "If"
-        }
-	else:
-		q_cond_display["0"] = {
-			"0": {
-              "LogicType": "EmbeddedField",
-              "LeftOperand": "ScorePrev",
-              "Operator": "GreaterThan",
-              "RightOperand": "$e{gr://SC_0/Score - 1}",
-              "Type": "Expression",
-              "Description": "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">ScorePrev</span> <span class=\"OpDesc\">Is Greater Than</span> <span class=\"RightOpDesc\"> $e{${gr://SC_0/Score} - 1} </span>"
-            },
-            "Type": "If"
-        }
-	return q_cond_display
-
 eos_payload_blocks = []
-
-def create_end_of_survey_logic(fl_id, eos_block_id, segment = 0):
-	curr_end_survey_display = copy.deepcopy(end_survey_display)
-	curr_end_survey_display["ID"] = curr_end_survey_display["ID"].format(eos_block_id)
-	curr_end_survey_display["FlowID"] = curr_end_survey_display["FlowID"].format(end_survey_display_flow_id)
-	qid = "QID{}".format(eos_block_id - 1)
-	eos_payload = {
-		"Type": "Standard",
-		"SubType": "",
-		"Description": "Block {}".format(eos_block_id),
-		"ID": "BL_{}".format(eos_block_id),
-		"BlockElements": [
-			{
-				"Type": "Question",
-				"QuestionID": "QID{}".format(eos_block_id - 1),
-			}
-		],
-		"Options": {
-			"BlockLocking": "false",
-			"RandomizeQuestions": "false",
-			"BlockVisibility": "Collapsed",
-		}
-	}
-	eos_payload_blocks.append(eos_payload)
-
-	msg = "You have completed the survey."
-
-	elem = {
-		"SurveyID": "{}".format(survey_id),
-		"Element": "SQ",
-		"PrimaryAttribute": qid,
-		"SecondaryAttribute": "End of survey",
-		"TertiaryAttribute": None,
-		"Payload": {
-		"QuestionText": msg + "<br><br>Clicking the 'next' arrow on this page will redirect you back to Prolific and register your submission.",
-		"QuestionID": qid,
-		"QuestionType": "DB",
-		"Selector": "TB",
-		"QuestionDescription": "End of survey",
-		"Validation": {
-			"Settings": {
-			"Type": "None"
-			}
-		},
-		"Language": [],
-		"DataExportTag": qid
-		}
-	}
-
-	survey_elements.append(elem)
-	return curr_end_survey_display
-
-def create_branch_logic(branch_logic_template, fl_id, eos_block_id, thresh_mc, thresh_te, total_questions_done, segment = False):
-	branch_logic_template_copy = copy.deepcopy(branch_logic_template)
-	branch_logic_template_copy["FlowID"] = "FL_{}".format(fl_id)
-	curr_end_survey_display = create_end_of_survey_logic(fl_id, eos_block_id, segment)
-
-	set_end_id_copy = copy.deepcopy(set_end_id)
-	set_end_id_copy["EmbeddedData"][0]["Value"] = "$e{" + str(total_questions_done) + " * 100}${rand://int/100000:1000000}"
-	end_survey_copy = copy.deepcopy(end_survey)
-	set_end_id_copy["FlowID"] = "FL_{}".format(set_end_id_flow_id)
-	end_survey_copy["FlowID"] = "FL_{}".format(end_survey_flow_id)
-	branch_logic_template_copy["Flow"] = [set_end_id_copy, curr_end_survey_display, end_survey_copy]
-	branch_logic_template_copy["BranchLogic"]["0"]["0"]["RightOperand"] = str(thresh_mc + thresh_te)
-	branch_logic_template_copy["BranchLogic"]["0"]["0"]["Description"] = "<span class=\"ConjDesc\">If</span>  <span class=\"LeftOpDesc\">Score</span> <span class=\"OpDesc\">Is Less Than</span> <span class=\"RightOpDesc\"> {} </span>".format(thresh_mc + thresh_te)
-	return branch_logic_template_copy
 
 def add_score(elem, weight = 1, q_type = "MC", train_ans = -1, merger = False):
 	if train_ans != -1:
@@ -1134,96 +971,6 @@ print(training_test_headlines, training_test_acq_status, training_test_c1, train
 
 set_score_id = -200
 
-def display_conditional_training(qid_q1, qid_q2, qid_curr, curr, t1, t2, curr_training_test_ans, tt_ind):
-	qid1 = "QID{}".format(qid_curr)
-	qid2 = "QID{}".format(qid_curr + 1)
-	print("QIDs", qid1, qid2)
-
-	text1 = tt[tt_ind].format(t1)
-	text2 = tt[tt_ind].format(t2)
-
-	survey_elements.append({
-        "SurveyID": "{}".format(survey_id),
-        "Element": "SQ",
-        "PrimaryAttribute": qid1,
-        "SecondaryAttribute": text1,
-        "TertiaryAttribute": None,
-        "Payload": {
-        "QuestionText": text1,
-        "QuestionID": qid1,
-        "QuestionType": "DB",
-        "Selector": "TB",
-        "QuestionDescription": text1,
-        "Validation": {
-        "Settings": {
-            "Type": "None"
-        }
-        },
-        "Language": [],
-        "DataExportTag": qid1,
-		"DisplayLogic": add_cond_display_training(qid_q1, qid_q2, curr_training_test_ans, correct = True)
-        }
-    })	
-
-	survey_elements.append({
-        "SurveyID": "{}".format(survey_id),
-        "Element": "SQ",
-        "PrimaryAttribute": qid2,
-        "SecondaryAttribute": text2,
-        "TertiaryAttribute": None,
-        "Payload": {
-        "QuestionText": text2,
-        "QuestionID": qid2,
-        "QuestionType": "DB",
-        "Selector": "TB",
-        "QuestionDescription": text2,
-        "Validation": {
-        "Settings": {
-            "Type": "None"
-        }
-        },
-        "Language": [],
-        "DataExportTag": qid2,
-		"DisplayLogic": add_cond_display_training(qid_q1, qid_q2, curr_training_test_ans, correct = False)
-        }
-    })
-
-	survey_info["SurveyElements"][0]["Payload"].append({
-        "Type": "Standard",
-        "SubType": "",
-        "Description": "Block {}".format(curr),
-        "ID": "BL_{}".format(curr),
-        "BlockElements": [],
-        "Options": {
-            "BlockLocking": "false",
-            "RandomizeQuestions": "false",
-            "BlockVisibility": "Collapsed",
-        }
-    })
-
-	block_elements = survey_info["SurveyElements"][0]["Payload"][curr + 1]["BlockElements"]
-	survey_info["SurveyElements"][1]["Payload"]["Flow"].append(
-        {
-            "ID": "BL_{}".format(curr),
-            "Type": "Block",
-            "FlowID": "FL_{}".format(curr)
-        }
-    )
-
-	block_elements.append({
-        "Type": "Question",
-        "QuestionID": qid1
-        })
-
-	block_elements.append({
-        "Type": "Question",
-        "QuestionID": qid2
-        })
-
-	block_elements.append({
-        "Type": "Page Break",
-        })
-
 qid_curr = curr
 for i in range(len(training_test_headlines)):
 	curr_title = training_test_headlines[i]
@@ -1244,7 +991,7 @@ for i in range(len(training_test_headlines)):
 	# display logic based on whether score2 - score = 1
 	text1 = "<div style = 'font-weight: bold; color: #006400; text-align: center;'>Correct!</div><br></br>"
 	text2 = "<div style = 'font-weight: bold; color: #8B0000; text-align: center;'>Not correct.</div><br></br>"
-	display_conditional_training(qid1, qid2, qid_curr, curr, text1, text2, curr_training_test_ans, i)
+	display_conditional_training(qid1, qid2, qid_curr, curr, text1, text2, curr_training_test_ans, tt, i, survey_elements, survey_id, survey_info)
 	curr += 1
 	qid_curr += 2
 	total_questions_done += 1
@@ -1376,7 +1123,7 @@ set_end_id_copy["FlowID"] = "FL_{}".format(set_end_id_flow_id)
 flow_elements.append(set_end_id_copy)
 set_end_id_flow_id -= 1
 
-curr_end_survey_display = create_end_of_survey_logic(fl_id, eos_block_id, segment = 2)
+curr_end_survey_display = create_end_of_survey_logic(fl_id, eos_block_id, end_survey_display_flow_id, eos_payload_blocks, survey_id, survey_elements, segment = 2)
 end_survey_display_flow_id -= 1
 end_survey_flow_id -= 1
 flow_elements.append(curr_end_survey_display)
