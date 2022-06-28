@@ -1,8 +1,8 @@
 [settings]
-all_titles_filename = /Users/lilybhattacharjee/Downloads/clean_headlines_excerpt.csv
+all_titles_filename = ../headlines_input/clean_headlines_excerpt.csv
 
-num_headlines = 100
-num_students = 4
+num_headlines = 250
+num_students = 10
 overlap = 0.5
 training_length = 0
 attention_check_length = 0

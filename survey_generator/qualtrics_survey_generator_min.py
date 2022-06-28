@@ -12,6 +12,7 @@ from survey_flow_directions import transition_text
 from qualtrics_survey_utils import select_att_check_headlines, assign_regular_headlines
 from qualtrics_survey_utils import set_score_prev
 from qualtrics_survey_utils import setup_survey, create_branch_logic, create_end_of_survey_logic, display_conditional_training
+
 seed = 0
 np.random.seed(seed)
 rate = 120 # expected rate of problem solving per hour
@@ -35,7 +36,9 @@ attention_check_length = int(config["settings"]["attention_check_length"]) # num
 follow_up_flag = bool(int(config["settings"]["follow_up_flag"]))
 
 training_thresh_mc = float(config["settings"]["training_thresh_mc"])
+training_thresh_te = float(config["settings"]["training_thresh_te"])
 attention_thresh_mc = float(config["settings"]["attention_thresh_mc"])
+attention_thresh_te = float(config["settings"]["attention_thresh_te"])
 
 # set up question description file: qid | headline | classification (0) / acquirer (1) / acquired (2)
 real_qid_lst = []
@@ -44,7 +47,9 @@ real_qtype_lst = []
 real_article_id_lst = []
 
 training_mc_weight = 1
-attention_mc_weight = 1
+training_te_weight = 1
+attention_mc_weight = attention_thresh_mc / (attention_thresh_mc + 2 * attention_thresh_te)
+attention_te_weight = attention_thresh_te / (training_thresh_mc + 2 * training_thresh_te)
 
 survey_name = config["settings"]["survey_name"]
 
@@ -332,10 +337,10 @@ def create_question(curr_title, curr, disp_settings = [], train_ans_lst = [], tr
 
 	if len(train_ans_lst):
 		train_ans, train_ans_acquirer, train_ans_acquired = train_ans_lst
-		mc_weight = training_mc_weight
+		mc_weight, te_weight = training_mc_weight, training_te_weight
 	else:
 		train_ans, train_ans_acquirer, train_ans_acquired = -1, -1, -1
-		mc_weight = attention_mc_weight
+		mc_weight, te_weight = attention_mc_weight, attention_te_weight
 
 	survey_info["SurveyElements"][0]["Payload"].append({
 		"Type": "Standard",
@@ -366,7 +371,7 @@ def create_question(curr_title, curr, disp_settings = [], train_ans_lst = [], tr
 		qid = "QID{}".format(curr_sub)
 		curr_subs.append(qid)
 
-		if subpart == 1:
+		if subpart in [1, 2, 3]:
 			real_qid_lst.append(qid)
 			real_headline_lst.append(curr_title)
 			real_article_id_lst.append(curr_article_id)
@@ -452,7 +457,134 @@ def create_question(curr_title, curr, disp_settings = [], train_ans_lst = [], tr
 			}
 
 			real_qtype_lst.append(0)
+
 			add_score(elem, mc_weight, "MC", train_ans)
+		elif subpart == 2:
+			if highlight_mode:
+				elem = create_highlight_question(qid, mode = "acquirer")
+			else:
+				elem = {
+					"SurveyID": "{}".format(survey_id),
+					"Element": "SQ",
+					"PrimaryAttribute": qid,
+					"SecondaryAttribute": "ACQUIRER (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):",
+					"TertiaryAttribute": None,
+					"Payload": {
+						"QuestionText": "ACQUIRER (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):\n\n",
+						"DefaultChoices": False,
+						"QuestionID": qid,
+						"QuestionType": "TE",
+						"Selector": "SL",
+						"Configuration": {
+							"QuestionDescriptionOption": "UseText"
+						},
+						"QuestionDescription": "ACQUIRER (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):",
+						"Validation": {
+							"Settings": {
+								"ForceResponse": "OFF",
+								"Type": "None"
+							}
+						},
+						"GradingData": [],
+						"Language": [],
+						"NextChoiceId": 4,
+						"NextAnswerId": 1,
+						"SearchSource": {
+							"AllowFreeResponse": "false"
+						},
+						"DataExportTag": qid,
+					}
+				}
+
+			real_qtype_lst.append(1)
+
+			merger = train_ans == 1
+			if merger: train_ans_arg = [train_ans_acquirer, train_ans_acquired]
+			else: train_ans_arg = train_ans_acquirer
+			add_score(elem, te_weight, "TE", train_ans_arg, merger = merger)
+		elif subpart == 3:
+			if highlight_mode:
+				elem = create_highlight_question(qid, mode = "acquired")
+			else: 
+				elem = {
+					"SurveyID": "{}".format(survey_id),
+					"Element": "SQ",
+					"PrimaryAttribute": qid,
+					"SecondaryAttribute": "ACQUIRED (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):",
+					"TertiaryAttribute": None,
+					"Payload": {
+						"QuestionText": "ACQUIRED (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):\n\n",
+						"DefaultChoices": False,
+						"QuestionID": qid,
+						"QuestionType": "TE",
+						"Selector": "SL",
+						"Configuration": {
+							"QuestionDescriptionOption": "UseText"
+						},
+						"QuestionDescription": "ACQUIRED (Leave blank if not indicated or unclear. You are encouraged to copy-paste from the headline text.):",
+						"Validation": {
+							"Settings": {
+								"ForceResponse": "OFF",
+								"Type": "None"
+							}
+						},
+						"GradingData": [],
+						"Language": [],
+						"NextChoiceId": 4,
+						"NextAnswerId": 1,
+						"SearchSource": {
+							"AllowFreeResponse": "false"
+						},
+						"DataExportTag": qid,
+					}
+				}
+
+			real_qtype_lst.append(2)
+
+			merger = train_ans == 1
+			if merger: train_ans_arg = [train_ans_acquired, train_ans_acquirer]
+			else: train_ans_arg = train_ans_acquired
+			add_score(elem, te_weight, "TE", train_ans_arg, merger = merger)
+		elif subpart == 4:
+			elem = {
+		      "SurveyID": "{}".format(survey_id),
+		      "Element": "SQ",
+		      "PrimaryAttribute": qid,
+		      "SecondaryAttribute": "Timing",
+		      "TertiaryAttribute": None,
+		      "Payload": {
+		        "QuestionText": "Timing",
+		        "DefaultChoices": False,
+		        "DataExportTag": qid,
+		        "QuestionType": "Timing",
+		        "Selector": "PageTimer",
+		        "Configuration": {
+		          "QuestionDescriptionOption": "UseText",
+		          "MinSeconds": "0",
+		          "MaxSeconds": "0"
+		        },
+		        "QuestionDescription": "Timing",
+		        "Choices": {
+		          "1": {
+		            "Display": "First Click"
+		          },
+		          "2": {
+		            "Display": "Last Click"
+		          },
+		          "3": {
+		            "Display": "Page Submit"
+		          },
+		          "4": {
+		            "Display": "Click Count"
+		          }
+		        },
+		        "GradingData": [],
+		        "Language": [],
+		        "NextChoiceId": 4,
+		        "NextAnswerId": 1,
+		        "QuestionID": qid
+		      }
+		    }
 
 		elem["Payload"]["DisplayLogic"] = add_cond_display("QID{}".format(0), disp_settings)
 		survey_elements.append(elem)
