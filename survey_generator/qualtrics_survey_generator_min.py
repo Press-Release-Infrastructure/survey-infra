@@ -111,15 +111,15 @@ d_format_elements = [
     ['Title', 'Company 2', 'Company 1', 'Company 1', 'Company 2'],
     ['Title'],
     ['Title'],
-    ['Title', 'Company 1', 'Company 1'],
-    ['Title', 'Company 2', 'Company 2'],
+    ['Title', 'Company 1'],
+    ['Title', 'Company 2'],
     ['Title']
 ]
 
 curr = 0
 image_curr = -5000
 est_time = round(titles_per_student / rate * 60)
-image_ids = ["IM_9B5dS6U26s0YYRM", "IM_0OMSPpaZ6IPdKtg", "IM_bwqhodFXsvLLnj8", "IM_0AL9PxBO1HSum5U", "IM_0jpOZB2TB4XXIhM", "IM_bQuvbckdHqNZxie", "IM_51OYNiheRmKoVYa"]
+image_ids = ["IM_bw4t0x7DnMJH2Pc", "IM_3frgEdYRwLTYn6C", "IM_0x0KZ7BjmBQT8BE", "IM_09hsfcRZj7I6tMy", "IM_ezkIwvJNG5ojcMe", "IM_72rV391GORh9u06", "IM_e4mKDNPwwIxpuwC"]
 for d in directions:
     qid1 = "QID{}".format(curr)
     qid2 = "QID{}".format(image_curr)
@@ -130,6 +130,7 @@ for d in directions:
         d = d % (titles_per_student, est_time)
     elif 4 <= curr <= 10:
         d_elems = list(training_flow_headlines_df.iloc[curr - 4][d_format_elements[curr - 4]])
+        print(d)
         d = d % tuple(d_elems)
 
     if 4 <= curr <= 10:

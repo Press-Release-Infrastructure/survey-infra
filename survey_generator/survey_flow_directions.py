@@ -50,9 +50,12 @@ Then, you will start the work of reading headlines and recording acquisitions.
 pg5 = """
 <b>%s</b>
 <br><br>
-This headline is about an <b>acquisition</b>. We click "Acquisition" in the drop-down box.
+This headline is about an <b>acquisition</b>. We click "Merger / Acquisition (between two companies)" in the drop-down box.
 <br><br>
-In this headline, %s acquires %s. 
+In this headline, %s acquires %s.
+"""
+
+pg5_extra = """
 <br><br>
 We COPY and PASTE the names of the company that was the acquirer (the buyer) and the aquiree (the company purchased).
 """
@@ -60,9 +63,12 @@ We COPY and PASTE the names of the company that was the acquirer (the buyer) and
 pg6 = """
 <b>%s</b>
 <br><br>
-This headline is about an acquisition. We click "Acquisition" in the drop-down box.
+This headline is about an acquisition. We click "Merger / Acquisition (between two companies)" in the drop-down box.
 <br><br>
 This headline uses the passive voice: %s was <b>acquired by</b> %s. For this headline, %s is the acquirer and %s the acquiree.
+"""
+
+pg6_extra = """
 <br><br>
 We COPY and PASTE the correct names into the text boxes.
 """
@@ -70,9 +76,12 @@ We COPY and PASTE the correct names into the text boxes.
 pg7 = """
 <b>%s</b>
 <br><br>
-This headline is about a <b>merger</b>. We click "Merger" in the drop-down box.
+This headline is about a <b>merger</b>. We click "Merger / Acquisition (between two companies)" in the drop-down box.
 <br><br>
 The headline says which companies are in the mergers. For mergers, the order does not matter. 
+"""
+
+pg7_extra = """
 <br><br>
 We COPY and PASTE the names into the text boxes, in either order.
 """
@@ -80,15 +89,18 @@ We COPY and PASTE the names into the text boxes, in either order.
 pg8 = """
 <b>%s</b>
 <br><br>
-This headline is not about an acquisition or merger. We click "Neither / Not sure / Unclear" in the drop-down box
+This headline is not about an acquisition or merger, but it talks about a company acquiring property (office buildings). We click "Acquiring property" in the drop-down box
 """
 
 pg9 = """
 <b>%s</b>
 <br><br>
-This headline is about an <b>acquisition</b>. It talks about a company being "bought," which is another way of saying acquired. We click "Acquisition" in the drop-down box.
+This headline is about an <b>acquisition</b>. It talks about a company being "bought," which is another way of saying acquired. We click "Merger / Acquisition (between two companies)" in the drop-down box.
 <br><br>
 This headline writes that %s was the acquirer. But it does not say who the acquired company was. 
+"""
+
+pg9_extra = """
 <br><br>
 We COPY and PASTE %s in the acquirer box, and leave the "acquiree" box blank, and move to the next, clicking the forward arrow.
 """
@@ -96,9 +108,12 @@ We COPY and PASTE %s in the acquirer box, and leave the "acquiree" box blank, an
 pg10 = """
 <b>%s</b>
 <br><br>
-This headline is about an <b>acquisition</b>. It talks about a company being "purchased," which is another way of saying acquired. We click "Acquisition" in the drop-down box.
+This headline is about an <b>acquisition</b>. It talks about a company being "purchased," which is another way of saying acquired. We click "Merger / Acquisition (between two companies)" in the drop-down box.
 <br><br>
 This headline writes that %s was acquired. But it does not say what company was the acquirer.
+"""
+
+pg10_extra = """
 <br><br>
 We COPY and PASTE %s in the acquiree box, and leave the "acquirer" box blank, and move to the next, clicking the forward arrow.
 """
@@ -106,7 +121,7 @@ We COPY and PASTE %s in the acquiree box, and leave the "acquirer" box blank, an
 pg11 = """
 <b>%s</b>
 <br><br>
-This text is not a headline. So we click "Neither / Not sure / Unclear" in the drop-down box.
+This text is not a headline. So we click "Unclear / not sure" in the drop-down box.
 """
 
 pg12 = """
@@ -115,8 +130,9 @@ Training is complete! Remember, your task is to:
 <ol>
 <li>Decide if you think the headline refers to an acquisition or merger. Some other words used are purchased or bought.</li>
 <li>If you think the headline is about an acquisition or merger, enter that in the drop-down box.</li>
-<li>If the headline is not about an acquisition or merger, click "Neither / Not sure / Unclear" in the drop-down box.</li>
-<li>If you are not sure, click "Neither / Not sure / Unclear." It is better to be conservative. If you are at all unsure, click "Neither / Not sure / Unclear." Don’t spend too long deciding.</li>
+<li>If the headline is not about an acquisition or merger, but about acquiring property, click "Acquiring property" in the drop-down box.</li>
+<li>If the headline is neither about an acquisition / merger, or acquiring property, but is a valid headline, click "Not about an acquisition or merger".</li>
+<li>If you are not sure, click "Unclear / not sure." It is better to be conservative. If you are at all unsure, click "Unclear / not sure." Don’t spend too long deciding.</li>
 <li>For headlines that are an acquisition or merger, the next step is to fill out the text boxes. COPY and PASTE the name of the acquirer company and the acquired company.</li>
 <li>If you are not sure the names of the companies, leave one or both text boxes blank.</li>
 </ol>
@@ -143,7 +159,10 @@ Let’s get started!
 
 # TRAINING TEST DESCRIPTIONS
 tt1 = """
-{} This headline refers to a <b>merger</b> because Aker BP is not acquiring Lundite Energy as a subsidiary or vice versa. 
+{} This headline refers to a <b>Merger / Acquisition (between two companies)</b> because Aker BP is merging with Lundite Energy. 
+"""
+
+tt1_extra = """
 <br><br>
 The two companies referred to in the headline (as the “ACQUIRER” and “ACQUIRED” fields in the previous question) should be “Aker BP” and “Lundite Energy,” in no particular order.
 <br><br>
@@ -151,33 +170,46 @@ What company you put in each field only matters if the headline refers to a stri
 """
 
 tt2 = """
-{} The headline is about an <b>acquisition</b> because Cultec Inc. is being acquired by Advanced Drainage Systems. The term “acquired by” means the acquired company appears before the acquiring one in the headline text .
+{} The headline is about an <b>Merger / Acquisition (between two companies)</b> because Cultec Inc. is being acquired by Advanced Drainage Systems. The term “acquired by” means the acquired company appears before the acquiring one in the headline text.
+"""
+
+tt2_extra = """
 <br><br>
 “Advanced Drainage Systems” should be the company entered into the first “ACQUIRER” field while “Cultec Inc.” should be entered into the “ACQUIRED” field for the classification to be fully correct.
 """
 
 tt3 = """
-{} Even though the headline includes the word “merger,” it is not referring to the joining of two companies. This headline is <b>neither / not sure / unclear</b> because it is neither a merger nor an acquisition of two companies.
+{} Even though the headline includes the word “merger,” it is not referring to the joining of two companies. This headline is <b>Not about an acquisition or merger</b> because it is neither a merger nor an acquisition of two companies.
+"""
 
+tt3_extra = """
+<br><br>
 Both the “ACQUIRER” and “ACQUIRED” fields may be left empty in this case.
 """
 
 tt4 = """
-{} This headline is an <b>acquisition</b> – in this case, the “ACQUIRER” is “Perrigo” while the “ACQUIRED” company is “HRA Pharma.”
+{} This headline is an <b>Merger / Acquisition (between two companies)</b> – in this case, the “ACQUIRER” is “Perrigo” while the “ACQUIRED” company is “HRA Pharma.”
 """
 
 tt5 = """
-{} The previous headline is <b>neither / not sure / unclear</b> because it is neither a merger nor an acquisition. Even though the event mentioned in the headline may be a consequence of an acquisition or buyout, do not indicate an acquisition or merger event unless the headline explicitly mentions it.
+{} The previous headline is <b>Not about an acquisition or merger</b> because it is neither a merger nor an acquisition. Even though the event mentioned in the headline may be a consequence of an acquisition or buyout, do not indicate an acquisition or merger event unless the headline explicitly mentions it.
 """
 
 tt6 = """
-{} This headline is an <b>acquisition</b>. Even if the “ACQUIRED” company isn’t explicitly named, the “ACQUIRER” company should be named as “JetBlue.”
+{} This headline is an <b>Merger / Acquisition (between two companies)</b>. Even if the “ACQUIRED” company isn’t explicitly named, the “ACQUIRER” company is “JetBlue.”
+"""
+
+tt6_extra = """
 
 Because the smaller airline company acquired is only described, leave the “ACQUIRED” box empty. This applies in the opposite case, when an acquirer company or one of the participants of a merger is not named.
 """
 
 tt7 = """
-{} This headline is <b>neither / not sure / unclear</b> because the purchase of a shop refers to the buying of a physical shop / location rather than an acquisition of a specific company. Leave the “ACQUIRER” and “ACQUIRED” fields empty when selecting this option for headline type, as no acquisition or merger is occurring.
+{} This headline is <b>Not about an acquisition or merger</b> because the purchase of a shop refers to the buying of a physical shop / location rather than an acquisition of a specific company.
+"""
+
+tt7_extra = """
+Leave the “ACQUIRER” and “ACQUIRED” fields empty when selecting this option for headline type, as no acquisition or merger is occurring.
 """
 
 transition_text = """
