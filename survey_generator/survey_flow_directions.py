@@ -19,21 +19,18 @@ A <b>merger</b> is when two companies join together as equals.
 """
 
 pg2 = """
-<b>Your role is to read each headline presented and answer three questions:</b>
+<b>Your role is to read each headline presented and answer:</b>
 <br><br>
-1. Does the headline describe a company acquisition? <br>
-2. Does the headline describe a company merger? <br>
-3. What is the <b>name of the company</b> that is the acquirer (the buyer)? <br>
-4. What is the <b>name of the company</b> that is acquired (bought)?
+1. Does the headline describe an acquisition or merger, between two companies?<br>
+2. Does the headline describe a company acquiring property?<br>
+3. Is the headline not about a merger or acquisition?<br>
 """
 
 pg3 = """
 Sometimes, you will <b>not be sure</b> about the answers. 
 <br><br>
 <ul>
-<li>If you are not sure if the headline is an acquisition, you can enter "Neither / Not sure / Unclear."</li>
-<li>If the headline does not say, or you are not sure who is the acquirer or acquired company, leave one or both text boxes blank.</li>
-<li>For mergers, the companies join as equals. Order does not matter. Enter the <b>name of each company</b> in the text boxes.</li>
+<li>If you are not sure if the headline is an acquisition, you can enter "Unclear / not sure."</li>
 </ul>
 """
 
@@ -51,11 +48,11 @@ pg5 = """
 <b>%s</b>
 <br><br>
 This headline is about an <b>acquisition</b>. We click "Merger / Acquisition (between two companies)" in the drop-down box.
-<br><br>
-In this headline, %s acquires %s.
 """
 
 pg5_extra = """
+<br><br>
+In this headline, %s acquires %s.
 <br><br>
 We COPY and PASTE the names of the company that was the acquirer (the buyer) and the aquiree (the company purchased).
 """
@@ -64,11 +61,11 @@ pg6 = """
 <b>%s</b>
 <br><br>
 This headline is about an acquisition. We click "Merger / Acquisition (between two companies)" in the drop-down box.
-<br><br>
-This headline uses the passive voice: %s was <b>acquired by</b> %s. For this headline, %s is the acquirer and %s the acquiree.
 """
 
 pg6_extra = """
+<br><br>
+This headline uses the passive voice: %s was <b>acquired by</b> %s. For this headline, %s is the acquirer and %s the acquiree.
 <br><br>
 We COPY and PASTE the correct names into the text boxes.
 """
@@ -77,11 +74,11 @@ pg7 = """
 <b>%s</b>
 <br><br>
 This headline is about a <b>merger</b>. We click "Merger / Acquisition (between two companies)" in the drop-down box.
-<br><br>
-The headline says which companies are in the mergers. For mergers, the order does not matter. 
 """
 
 pg7_extra = """
+<br><br>
+The headline says which companies are in the mergers. For mergers, the order does not matter. 
 <br><br>
 We COPY and PASTE the names into the text boxes, in either order.
 """
@@ -89,18 +86,18 @@ We COPY and PASTE the names into the text boxes, in either order.
 pg8 = """
 <b>%s</b>
 <br><br>
-This headline is not about an acquisition or merger, but it talks about a company acquiring property (office buildings). We click "Acquiring property" in the drop-down box
+This headline is not about an acquisition or merger, but it talks about a company acquiring property (office buildings). We click "Acquiring property" in the drop-down box.
 """
 
 pg9 = """
 <b>%s</b>
 <br><br>
 This headline is about an <b>acquisition</b>. It talks about a company being "bought," which is another way of saying acquired. We click "Merger / Acquisition (between two companies)" in the drop-down box.
-<br><br>
-This headline writes that %s was the acquirer. But it does not say who the acquired company was. 
 """
 
 pg9_extra = """
+<br><br>
+This headline writes that %s was the acquirer. But it does not say who the acquired company was. 
 <br><br>
 We COPY and PASTE %s in the acquirer box, and leave the "acquiree" box blank, and move to the next, clicking the forward arrow.
 """
@@ -109,11 +106,11 @@ pg10 = """
 <b>%s</b>
 <br><br>
 This headline is about an <b>acquisition</b>. It talks about a company being "purchased," which is another way of saying acquired. We click "Merger / Acquisition (between two companies)" in the drop-down box.
-<br><br>
-This headline writes that %s was acquired. But it does not say what company was the acquirer.
 """
 
 pg10_extra = """
+<br><br>
+This headline writes that %s was acquired. But it does not say what company was the acquirer.
 <br><br>
 We COPY and PASTE %s in the acquiree box, and leave the "acquirer" box blank, and move to the next, clicking the forward arrow.
 """
@@ -133,8 +130,6 @@ Training is complete! Remember, your task is to:
 <li>If the headline is not about an acquisition or merger, but about acquiring property, click "Acquiring property" in the drop-down box.</li>
 <li>If the headline is neither about an acquisition / merger, or acquiring property, but is a valid headline, click "Not about an acquisition or merger".</li>
 <li>If you are not sure, click "Unclear / not sure." It is better to be conservative. If you are at all unsure, click "Unclear / not sure." Don’t spend too long deciding.</li>
-<li>For headlines that are an acquisition or merger, the next step is to fill out the text boxes. COPY and PASTE the name of the acquirer company and the acquired company.</li>
-<li>If you are not sure the names of the companies, leave one or both text boxes blank.</li>
 </ol>
 """
 

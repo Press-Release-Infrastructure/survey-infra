@@ -107,12 +107,12 @@ if follow_up_flag:
     directions[0] = pg1_alt 
 
 d_format_elements = [
-    ['Title', 'Company 1', 'Company 2'],
-    ['Title', 'Company 2', 'Company 1', 'Company 1', 'Company 2'],
     ['Title'],
     ['Title'],
-    ['Title', 'Company 1'],
-    ['Title', 'Company 2'],
+    ['Title'],
+    ['Title'],
+    ['Title'],
+    ['Title'],
     ['Title']
 ]
 
@@ -131,6 +131,7 @@ for d in directions:
     elif 4 <= curr <= 10:
         d_elems = list(training_flow_headlines_df.iloc[curr - 4][d_format_elements[curr - 4]])
         print(d)
+        print(curr)
         d = d % tuple(d_elems)
 
     if 4 <= curr <= 10:
